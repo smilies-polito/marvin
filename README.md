@@ -13,5 +13,5 @@
 
 
 ## TO DO
-1. Install Vitis environment (either on Windows or Linux)
-2. Write a Hello World program involving FreeRTOS and run it on the pynq
+1. Write the PC on a file on board
+2. Transfer the file from the board to the pc
