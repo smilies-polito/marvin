@@ -7852,3 +7852,206 @@ con
 14:35:35 INFO  : Successfully done setting XSCT server connection channel  
 14:35:35 INFO  : Successfully done query RDI_DATADIR 
 14:35:35 INFO  : Successfully done setting workspace for the tool. 
+14:53:42 DEBUG : Logs will be stored at '/home/enrico/Desktop/marvin/IDE.log'.
+14:53:42 INFO  : Launching XSCT server: xsct -n  -interactive /home/enrico/Desktop/marvin/temp_xsdb_launch_script.tcl
+14:53:42 INFO  : Registering command handlers for Vitis TCF services
+14:53:43 INFO  : Platform repository initialization has completed.
+14:53:43 INFO  : XSCT server has started successfully.
+14:53:43 INFO  : Successfully done setting XSCT server connection channel  
+14:53:43 INFO  : Successfully done query RDI_DATADIR 
+14:53:43 INFO  : Successfully done setting workspace for the tool. 
+14:53:44 INFO  : plnx-install-location is set to ''
+14:57:39 INFO  : Result from executing command 'getProjects': design_1_wrapper
+14:57:39 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/tools/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:57:42 INFO  : Checking for BSP changes to sync application flags for project 'Hello_word_freeRTOS'...
+14:58:03 INFO  : Checking for BSP changes to sync application flags for project 'Hello_word_freeRTOS'...
+14:58:29 INFO  : Checking for BSP changes to sync application flags for project 'Hello_word_freeRTOS'...
+15:00:19 INFO  : Checking for BSP changes to sync application flags for project 'Hello_word_freeRTOS'...
+15:01:24 ERROR : (XSDB Server)Already running
+
+15:01:50 INFO  : XRT server has started successfully on port '4351'
+15:01:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:01:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:01:50 INFO  : 'jtag frequency' command is executed.
+15:01:50 INFO  : Context for 'APU' is selected.
+15:01:50 INFO  : System reset is completed.
+15:01:53 INFO  : 'after 3000' command is executed.
+15:01:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:01:56 INFO  : Device configured successfully with "/root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit"
+15:01:56 INFO  : Context for 'APU' is selected.
+15:01:56 INFO  : Hardware design and registers information is loaded from '/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:01:56 INFO  : 'configparams force-mem-access 1' command is executed.
+15:01:56 INFO  : Context for 'APU' is selected.
+15:01:56 INFO  : Sourcing of '/root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl' is done.
+15:01:56 INFO  : 'ps7_init' command is executed.
+15:01:56 INFO  : 'ps7_post_config' command is executed.
+15:01:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:01:56 INFO  : The application '/root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:01:56 INFO  : 'configparams force-mem-access 0' command is executed.
+15:01:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:01:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:01:56 INFO  : 'con' command is executed.
+15:01:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:01:56 INFO  : Launch script is exported to file '/home/enrico/Desktop/marvin/Hello_word_freeRTOS_system/_ide/scripts/systemdebugger_hello_word_freertos_system_standalone.tcl'
+15:02:15 INFO  : Disconnected from the channel tcfchan#2.
+15:02:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:02:15 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:02:15 INFO  : 'jtag frequency' command is executed.
+15:02:15 INFO  : Context for 'APU' is selected.
+15:02:15 INFO  : System reset is completed.
+15:02:18 INFO  : 'after 3000' command is executed.
+15:02:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:02:20 INFO  : Device configured successfully with "/root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit"
+15:02:20 INFO  : Context for 'APU' is selected.
+15:02:20 INFO  : Hardware design and registers information is loaded from '/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:02:20 INFO  : 'configparams force-mem-access 1' command is executed.
+15:02:20 INFO  : Context for 'APU' is selected.
+15:02:20 INFO  : Sourcing of '/root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl' is done.
+15:02:21 INFO  : 'ps7_init' command is executed.
+15:02:21 INFO  : 'ps7_post_config' command is executed.
+15:02:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:02:21 INFO  : The application '/root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:02:21 INFO  : 'configparams force-mem-access 0' command is executed.
+15:02:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:02:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:02:21 INFO  : 'con' command is executed.
+15:02:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:02:21 INFO  : Launch script is exported to file '/home/enrico/Desktop/marvin/Hello_word_freeRTOS_system/_ide/scripts/systemdebugger_hello_word_freertos_system_standalone.tcl'
+15:04:11 INFO  : Disconnected from the channel tcfchan#3.
+15:04:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:11 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:04:11 INFO  : 'jtag frequency' command is executed.
+15:04:11 INFO  : Context for 'APU' is selected.
+15:04:11 INFO  : System reset is completed.
+15:04:14 INFO  : 'after 3000' command is executed.
+15:04:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:04:16 INFO  : Device configured successfully with "/root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit"
+15:04:16 INFO  : Context for 'APU' is selected.
+15:04:16 INFO  : Hardware design and registers information is loaded from '/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:04:16 INFO  : 'configparams force-mem-access 1' command is executed.
+15:04:16 INFO  : Context for 'APU' is selected.
+15:04:16 INFO  : Sourcing of '/root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl' is done.
+15:04:17 INFO  : 'ps7_init' command is executed.
+15:04:17 INFO  : 'ps7_post_config' command is executed.
+15:04:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:17 INFO  : The application '/root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:04:17 INFO  : 'configparams force-mem-access 0' command is executed.
+15:04:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:04:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:17 INFO  : 'con' command is executed.
+15:04:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:04:17 INFO  : Launch script is exported to file '/home/enrico/Desktop/marvin/Hello_word_freeRTOS_system/_ide/scripts/systemdebugger_hello_word_freertos_system_standalone.tcl'
+15:05:04 INFO  : Checking for BSP changes to sync application flags for project 'Hello_word_freeRTOS'...
+15:05:06 INFO  : Disconnected from the channel tcfchan#4.
+15:05:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:07 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:05:07 INFO  : 'jtag frequency' command is executed.
+15:05:07 INFO  : Context for 'APU' is selected.
+15:05:07 INFO  : System reset is completed.
+15:05:10 INFO  : 'after 3000' command is executed.
+15:05:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:05:12 INFO  : Device configured successfully with "/root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit"
+15:05:12 INFO  : Context for 'APU' is selected.
+15:05:12 INFO  : Hardware design and registers information is loaded from '/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:05:12 INFO  : 'configparams force-mem-access 1' command is executed.
+15:05:12 INFO  : Context for 'APU' is selected.
+15:05:12 INFO  : Sourcing of '/root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl' is done.
+15:05:12 INFO  : 'ps7_init' command is executed.
+15:05:12 INFO  : 'ps7_post_config' command is executed.
+15:05:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:12 INFO  : The application '/root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:05:12 INFO  : 'configparams force-mem-access 0' command is executed.
+15:05:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:05:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:12 INFO  : 'con' command is executed.
+15:05:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:05:12 INFO  : Launch script is exported to file '/home/enrico/Desktop/marvin/Hello_word_freeRTOS_system/_ide/scripts/systemdebugger_hello_word_freertos_system_standalone.tcl'
+15:33:49 INFO  : Disconnected from the channel tcfchan#5.
