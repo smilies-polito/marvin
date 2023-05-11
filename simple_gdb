@@ -1,0 +1,10 @@
+set $n = 2
+while ($n > 0)
+	set $line_num = $n*15 + 156
+	break $line_num
+	set $n = $n - 1
+	continue
+	disable
+	finish
+	run
+end
