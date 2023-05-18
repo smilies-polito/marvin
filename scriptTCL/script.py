@@ -2,8 +2,8 @@ import pexpect
 import time
 import random
 
-#init: 0x00100590
-#fin:  0x00100710
+#init: 0x00100660
+#fin:  0x001007b0
 
 
 def bitFlipping(hex_value):
@@ -48,11 +48,11 @@ def main():
 	print(xsct.before.decode())   #init
 
 
-	xsct.sendline("source /home/enrico/Desktop/project_simple/scriptTCL/init.tcl")
+	xsct.sendline("source /home/enrico/Desktop/marvin/scriptTCL/init.tcl")
 	xsct.expect(".*Successfully downloaded.*")
 	#print(xsct.after.decode())  #%xsct
 
-	xsct.sendline("bpadd -file freertos_hello_world.c -line 113") #TO CHANGE
+	xsct.sendline("bpadd -file freertos_hello_world.c -line 155") #TO CHANGE
 	xsct.expect(".*Breakpoint 0.*")
 	#print(xsct.after.decode())
 
@@ -61,7 +61,7 @@ def main():
 	    print("range n: ", i)
 	    f.write(str(i) + "\n")
 	    #rand_bp_cmd = "bpadd -file freertos_hello_world.c -line " + str(random.randint(93, 113)) #bp on LOC
-	    rand_bp_cmd = "bpadd " + str (random.randint(1050000, 1050384)) #bp on elf file address pay attention that here number are decimal, normal address rappresentation is hex   #TO CHANGE
+	    rand_bp_cmd = "bpadd " + str (random.randint(1050208, 1050544)) #bp on elf file address pay attention that here number are decimal, normal address rappresentation is hex   #TO CHANGE
 	    xsct.sendline(rand_bp_cmd)
 	    #xsct.expect(".*Breakpoint " + str(i+1) + ".*")
 	    #print(xsct.after.decode())

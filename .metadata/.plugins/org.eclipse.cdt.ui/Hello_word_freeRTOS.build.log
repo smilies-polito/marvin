@@ -1,4 +1,4 @@
-15:05:04 **** Incremental Build of configuration Debug for project Hello_word_freeRTOS ****
+17:06:43 **** Incremental Build of configuration Debug for project Hello_word_freeRTOS ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -7,12 +7,16 @@ make --no-print-directory main-build
 Building file: ../src/freertos_hello_world.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'confPMU':
+../src/freertos_hello_world.c:85:14: warning: unused variable 'value' [-Wunused-variable]
+   85 |         char value = *pointer;
+      |              ^~~~~
 ../src/freertos_hello_world.c: In function 'bubbleSort':
-../src/freertos_hello_world.c:147:1: warning: label 'fine' defined but not used [-Wunused-label]
-  147 | fine:   xil_printf("Task finished\n");
+../src/freertos_hello_world.c:152:1: warning: label 'fine' defined but not used [-Wunused-label]
+  152 | fine:   xil_printf("");
       | ^~~~
-../src/freertos_hello_world.c:127:1: warning: label 'inizio' defined but not used [-Wunused-label]
-  127 | inizio: xil_printf("Start bubble sort\n");
+../src/freertos_hello_world.c:132:1: warning: label 'inizio' defined but not used [-Wunused-label]
+  132 | inizio: xil_printf("");
       | ^~~~~~
 Finished building: ../src/freertos_hello_world.c
  
@@ -24,9 +28,9 @@ Finished building target: Hello_word_freeRTOS.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size Hello_word_freeRTOS.elf  |tee "Hello_word_freeRTOS.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  84756	   3368	  88788	 176912	  2b310	Hello_word_freeRTOS.elf
+  84644	   3368	  88788	 176800	  2b2a0	Hello_word_freeRTOS.elf
 Finished building: Hello_word_freeRTOS.elf.size
  
 
-15:05:04 Build Finished (took 213ms)
+17:06:43 Build Finished (took 283ms)
 
