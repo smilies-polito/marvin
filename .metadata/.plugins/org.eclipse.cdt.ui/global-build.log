@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-17:06:43 **** Incremental Build of configuration Debug for project Hello_word_freeRTOS ****
+14:02:38 **** Incremental Build of configuration Debug for project Hello_word_freeRTOS ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -10,15 +10,63 @@ Building file: ../src/freertos_hello_world.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
 ../src/freertos_hello_world.c: In function 'confPMU':
+../src/freertos_hello_world.c:100:17: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                 ^~~~~~
+../src/freertos_hello_world.c:100:17: note: (near initialization for 'events')
+../src/freertos_hello_world.c:100:25: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                         ^~~~~~
+../src/freertos_hello_world.c:100:25: note: (near initialization for 'events')
+../src/freertos_hello_world.c:100:33: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                                 ^~~~~~
+../src/freertos_hello_world.c:100:33: note: (near initialization for 'events')
+../src/freertos_hello_world.c:100:41: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                                         ^~~~~~
+../src/freertos_hello_world.c:100:41: note: (near initialization for 'events')
+../src/freertos_hello_world.c:100:49: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                                                 ^~~~~~
+../src/freertos_hello_world.c:100:49: note: (near initialization for 'events')
+../src/freertos_hello_world.c:100:57: warning: excess elements in array initializer
+  100 |                 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006,
+      |                                                         ^~~~~~
+../src/freertos_hello_world.c:100:57: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:17: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                 ^~~~~~
+../src/freertos_hello_world.c:101:17: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:25: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                         ^~~~~~
+../src/freertos_hello_world.c:101:25: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:33: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                                 ^~~~~~
+../src/freertos_hello_world.c:101:33: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:41: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                                         ^~~~~~
+../src/freertos_hello_world.c:101:41: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:49: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                                                 ^~~~~~
+../src/freertos_hello_world.c:101:49: note: (near initialization for 'events')
+../src/freertos_hello_world.c:101:57: warning: excess elements in array initializer
+  101 |                 0x8007, 0x8008, 0x8009, 0x800A, 0x800B, 0x800C};
+      |                                                         ^~~~~~
+../src/freertos_hello_world.c:101:57: note: (near initialization for 'events')
 ../src/freertos_hello_world.c:85:14: warning: unused variable 'value' [-Wunused-variable]
    85 |         char value = *pointer;
       |              ^~~~~
 ../src/freertos_hello_world.c: In function 'bubbleSort':
-../src/freertos_hello_world.c:152:1: warning: label 'fine' defined but not used [-Wunused-label]
-  152 | fine:   xil_printf("");
+../src/freertos_hello_world.c:167:1: warning: label 'fine' defined but not used [-Wunused-label]
+  167 | fine:   xil_printf("");
       | ^~~~
-../src/freertos_hello_world.c:132:1: warning: label 'inizio' defined but not used [-Wunused-label]
-  132 | inizio: xil_printf("");
+../src/freertos_hello_world.c:149:1: warning: label 'inizio' defined but not used [-Wunused-label]
+  149 | inizio: xil_printf("");
       | ^~~~~~
 Finished building: ../src/freertos_hello_world.c
  
@@ -30,6 +78,6 @@ Finished building target: Hello_word_freeRTOS.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size Hello_word_freeRTOS.elf  |tee "Hello_word_freeRTOS.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  84644	   3368	  88788	 176800	  2b2a0	Hello_word_freeRTOS.elf
+  85100	   3368	  88788	 177256	  2b468	Hello_word_freeRTOS.elf
 Finished building: Hello_word_freeRTOS.elf.size
  

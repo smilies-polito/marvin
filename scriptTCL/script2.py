@@ -2,13 +2,14 @@ import pexpect
 import time
 import random
 import subprocess
+import sys
 
-#init: 0x001006ac -> 1050284
-#fin:  0x001007fc -> 1050620
+init_task = "10070c"
+fin_task = "10085c"
 
-num_of_fault = 50 #number of different fault -> fault is a bit flipping and a bp
+#num_of_fault = 4 #number of different fault -> fault is a bit flipping and a bps
 num_of_sample = 1 #number of sample given a fault
-num_of_run = 2 #number of run for trace all the PC per a faul
+num_of_run = 28 #number of run for trace all the PC per a faul -> +9 if wanna trace event 4000 and 8000
 
 def bitFlipping(hex_value, rand_pos):
 	'''Convert hex in bin, perform a bit flipping in a random position and return the hex value'''
@@ -30,7 +31,7 @@ def bitFlipping(hex_value, rand_pos):
 	#print(hex_res)
 	return hex_res
 
-def fault_injection(xsct, reg_num, pos_flipping):
+def fault_injection(xsct, reg_num, pos_flipping, crash):
 	reg = "r" + str(reg_num)
 	read_cmd = "rrd " + reg
 	print("CMD: " + read_cmd)
@@ -38,13 +39,18 @@ def fault_injection(xsct, reg_num, pos_flipping):
 	xsct.expect(".*" + reg + ": *")
 	value = xsct.readline().decode()
 	print(reg + ": " + str(value))
-	flipped_value = bitFlipping(value, pos_flipping)
-	print("bit Flip: " + flipped_value)
-	xsct.sendline("rwr " + reg + " " + flipped_value)	
+	try:
+	
+		flipped_value = bitFlipping(value, pos_flipping)
+		print("bit Flip: " + flipped_value)
+		xsct.sendline("rwr " + reg + " " + flipped_value)
+	except:
+		crash=True	
 	
 def main():
 	#subprocess.run(["python3", "/home/enrico/Desktop/marvin/scriptTCL/sniffer.py"])
-	
+	num_of_fault = sys.argv[1]
+	print("start simulation, num of fault: " + str(num_of_fault))
 	f = open("dataset", "w")	#Output file
 	
 	xsct = pexpect.spawn("xsct")
@@ -54,17 +60,18 @@ def main():
 	xsct.sendline("source /home/enrico/Desktop/marvin/scriptTCL/init.tcl")
 	xsct.expect(".*Successfully downloaded.*")
 	
-	xsct.sendline("bpadd -file freertos_hello_world.c -line 155") #TO CHANGE the final bp
+	xsct.sendline("bpadd -file freertos_hello_world.c -line 192") #TO CHANGE the final bp
 	xsct.expect(".*Breakpoint 0.*")
 	
-	for i in range(num_of_fault):
-		rand_bp_pos = random.randint(1050284, 1050620) #bp on elf file address pay attention that here number are decimal, normal address rappresentation is hex   #TO CHANGE
+	for i in range(int(num_of_fault)):
+		rand_bp_pos = random.randint(int(init_task, base=16), int(fin_task, base=16)) #bp on elf file address pay attention that here number are decimal, normal address rappresentation is hex   #TO CHANGE
 		reg_flipping = random.randint(0, 12)
 		pos_flipping = random.randint(0, 31)
 
 		print(f"Generated a fault in reg: {reg_flipping} pos: {pos_flipping} at LOC: {rand_bp_pos}")		
 		f.write(f"{i}: reg: {reg_flipping} pos: {pos_flipping} at LOC: {rand_bp_pos}\n")
-		
+		xsct.sendline("mwr 0x10200 " + str(i) )
+		crash = False
 		for y in range(num_of_run): #This cycle depends on the number of events that we wanna trace
 			xsct.sendline("mwr 0x10000 0x0")
 			xsct.sendline("mwr 0x10000 " + str(y) ) #for this program write the number of execution at address 10000 is fine
@@ -75,12 +82,12 @@ def main():
 			
 			xsct.expect(".*Breakpoint.*")
 			print("raggiunto bp e fare injection: " + rand_bp_cmd )
-			fault_injection(xsct, reg_flipping, pos_flipping)
+			fault_injection(xsct, reg_flipping, pos_flipping, crash)
 
 			xsct.sendline("bpremove " + str(num_of_run*i+y+1))
 			print("bpremove " + str(num_of_run*i+y+1))
 			xsct.sendline("con")
-			crash = False
+			
 			try:
 				xsct.expect(".*Breakpoint.*")
 			except:
@@ -89,7 +96,16 @@ def main():
 				crash = True
 			
 		if crash == False:
-			f.write("SDC/benign\n")
+			xsct.sendline("mrd 0x10100")
+			xsct.expect(".*10100: *")
+			value = xsct.readline().decode()
+			print(value)
+			print(len(value))
+			print(value[len(value)-5])
+			if value[len(value)-5] == '1':
+				f.write("benign\n")
+			else:
+				f.write("SDC\n")
 		else:
 			f.write("crash/hangs\n")		
 	f.close()

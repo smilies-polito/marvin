@@ -5,4 +5,14 @@
         <Rendering ID="org.eclipse.cdt.debug.ui.memory.floatingpoint.FPRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
         <Rendering ID="org.eclipse.cdt.debug.ui.memory.traditional.TraditionalRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
     </Block>
+    <Block Addr="0x10100" Context="JTAG-jsn-TUL-1234-tulA-4ba00477-0.0" Size="-1">
+        <Rendering ID="org.eclipse.debug.ui.rendering.hexint" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.1"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.floatingpoint.FPRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.traditional.TraditionalRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+    </Block>
+    <Block Addr="0x10200" Context="JTAG-jsn-TUL-1234-tulA-4ba00477-0.0" Size="-1">
+        <Rendering ID="org.eclipse.debug.ui.rendering.hexint" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.1"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.floatingpoint.FPRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+        <Rendering ID="org.eclipse.cdt.debug.ui.memory.traditional.TraditionalRendering" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.2"/>
+    </Block>
 </Memory>
