@@ -63,6 +63,7 @@ def main():
 	xsct.sendline("bpadd -file freertos_hello_world.c -line 192") #TO CHANGE the final bp
 	xsct.expect(".*Breakpoint 0.*")
 	
+	num_bp_remove = 1
 	for i in range(int(num_of_fault)):
 		rand_bp_pos = random.randint(int(init_task, base=16), int(fin_task, base=16)) #bp on elf file address pay attention that here number are decimal, normal address rappresentation is hex   #TO CHANGE
 		reg_flipping = random.randint(0, 12)
@@ -84,8 +85,9 @@ def main():
 			print("raggiunto bp e fare injection: " + rand_bp_cmd )
 			fault_injection(xsct, reg_flipping, pos_flipping, crash)
 
-			xsct.sendline("bpremove " + str(num_of_run*i+y+1))
-			print("bpremove " + str(num_of_run*i+y+1))
+			xsct.sendline("bpremove " + str(num_bp_remove))
+			print("bpremove " + str(num_bp_remove))
+			num_bp_remove = num_bp_remove + 1
 			xsct.sendline("con")
 			
 			try:
@@ -94,6 +96,7 @@ def main():
 				#need to save that a crash or loop stack occurs
 				print("An timeout exception occurs")
 				crash = True
+				break
 			
 		if crash == False:
 			xsct.sendline("mrd 0x10100")
