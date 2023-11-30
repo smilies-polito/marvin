@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;sha_driver.c, sha.c, sha.h&apos; to &apos;sha&apos;" description="Move 3 resources to &apos;sha&apos;" destination="src/sha" element1="src/sha_driver.c" element2="src/sha.c" element3="src/sha.h" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1689258038719" updateReferences="true"/>
+</session>

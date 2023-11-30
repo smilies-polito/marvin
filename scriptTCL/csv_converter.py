@@ -1,12 +1,13 @@
 import csv
 import sys
 
+num_pc = 42 #all are 168
 
 def main():
 	num_of_fault = int(sys.argv[1])
 	f = open("dataset.csv", "w")
 	header = "num,reg,pos,loc,res"
-	for i in range(168):
+	for i in range(num_pc):
 		header = header + "," + str(i)
 	f.write(header + "\n")	
 	
@@ -19,17 +20,29 @@ def main():
 		res_x = res.readline().strip()
 		row = row + line_list[2].split()[0] + "," + line_list[3].split()[0] + "," + line_list[4] + "," + res_x
 		
-		evs.readline()
-		evs.readline()
-		for ev in range(168):
+		crash = False;
+		cont_len = True;
+		print(evs.readline())
+		last = evs.readline()
+		while "Fault" not in last:
+			last = evs.readline()
+		for ev in range(num_pc):
 			if res_x != "crash/hangs":
-				ev_c = evs.readline().strip().split(':')[1]
-				row = row + "," + str(ev_c)
+				aus = evs.readline()
+				print(aus)
+				ev_c = aus.strip().split(':')
+				if len(ev_c) != 2:
+					cont_len = False
+				else:		
+					row = row + "," + str(ev_c[1])
 			else:
+				crash = True;
 				row= row + "," + "-"	
-		row = row + "\n"	
-		f.write(row)
-
+		if cont_len:		
+			row = row + "\n"	
+			f.write(row)
+		
+				
 		
 	res.close()
 	f.close()

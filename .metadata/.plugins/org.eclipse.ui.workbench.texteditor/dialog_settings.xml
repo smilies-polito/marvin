@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="xil_print"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="0x10"/>
+			<item value="10100"/>
+			<item value=":"/>
+			<item value="push"/>
+			<item value="printf"/>
+			<item value="sha_tra"/>
+			<item value="LONGO"/>
+			<item value="LONGOO"/>
+			<item value="LONG"/>
 			<item value="xil_print"/>
 			<item value="project_simple"/>
 		</list>
 		<list key="replacehistory">
+			<item value="unsigned long"/>
+			<item value="LONGO"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
