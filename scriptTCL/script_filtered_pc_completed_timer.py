@@ -9,10 +9,10 @@ import sys
 #Dijkstra: 103098/103290 -> 103518
 #qsort: 10b24c -> 10b84a /// 102f68 -> 102fc8
 init_task = "10050c" #ToCHANGE 
-fin_task = "102e34"
-final_bp = "195"
-fault_location = "pc" #possible value memory or registers
-fault = True
+fin_task = "102e34"  #ToCHANGE
+final_bp = "195"	#ToCHANGE	
+fault_location = "pc" #ToCHANGE possible value memory or registers
+fault = True		#ToCHANGE
 
 num_of_sample = 1 #number of sample given a fault
 num_of_run = 7 #number of run for trace all the PC per a faul (28) -> +9 if wanna trace event 4000 and 8000 
