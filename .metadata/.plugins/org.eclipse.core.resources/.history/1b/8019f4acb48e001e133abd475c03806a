@@ -1,0 +1,202 @@
+/*
+    Copyright (C) 2017 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
+    Copyright (c) 2012 - 2022 Xilinx, Inc. All Rights Reserved.
+	SPDX-License-Identifier: MIT
+
+
+    http://www.FreeRTOS.org
+    http://aws.amazon.com/freertos
+
+
+    1 tab == 4 spaces!
+*/
+
+/* FreeRTOS includes. */
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+/* Xilinx includes. */
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "sha/sha.h"
+#include "dijkstra/dijkstra.h"
+#include "qsort/qsort.h"
+#define TIMER_ID	1
+#define DELAY_10_SECONDS	10000UL
+#define DELAY_1_SECOND		1000UL
+#define TIMER_CHECK_THRESHOLD	9
+/*-----------------------------------------------------------*/
+
+/* The Tx and Rx tasks as described at the top of this file. */
+static void prvTxTask( void *pvParameters );
+/*-----------------------------------------------------------*/
+
+/* The queue used by the Tx and Rx tasks, as described at the top of this
+file. */
+static TaskHandle_t xTxTask;
+char HWstring[15] = "Hello World";
+long RxtaskCntr = 0;
+
+#if (configSUPPORT_STATIC_ALLOCATION == 1)
+#define QUEUE_BUFFER_SIZE		100
+
+uint8_t ucQueueStorageArea[ QUEUE_BUFFER_SIZE ];
+StackType_t xStack1[ configMINIMAL_STACK_SIZE ];
+StackType_t xStack2[ configMINIMAL_STACK_SIZE ];
+StaticTask_t xTxBuffer,xRxBuffer;
+StaticTimer_t xTimerBuffer;
+static StaticQueue_t xStaticQueue;
+#endif
+
+
+int main( void )
+{
+	//xil_printf( "VSSTE (Very Stupid Single Task Example) from Freertos example main\r\n" );
+
+#if ( configSUPPORT_STATIC_ALLOCATION == 0 ) /* Normal or standard use case */
+	/* Create the two tasks.  The Tx task is given a lower priority than the
+	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
+	task as soon as the Tx task places an item in the queue. */
+	xTaskCreate( 	prvTxTask, 					/* The function that implements the task. */
+					( const char * ) "Tx", 		/* Text name for the task, provided to assist debugging only. */
+					4096, 	/* The stack allocated to the task. */
+					NULL, 						/* The task parameter is not used, so set to NULL. */
+					tskIDLE_PRIORITY + 1,		/* The task runs at the idle priority. */
+					&xTxTask );
+
+
+
+
+#endif
+
+
+	/* Start the tasks and timer running. */
+	vTaskStartScheduler();
+
+	/* If all is well, the scheduler will now be running, and the following line
+	will never be reached.  If the following line does execute, then there was
+	insufficient FreeRTOS heap memory available for the idle and/or timer tasks
+	to be created.  See the memory management section on the FreeRTOS web site
+	for more details. */
+	for( ;; );
+}
+
+
+static void confPMU(){
+	char* pointer = (char*)0x10000;
+	char value = *pointer;
+	int c = (int)pointer[0];
+	if(c == 0){
+		xil_printf("\n");
+		char* pointer2 = (char*)0x10200;
+		int f = (int)pointer2[0];
+		xil_printf("Fault %d:\n", f);
+	}
+
+	//Tracable events
+	int events[42] = {1,3,4,5,6,7,10,12,13,15,16,17,18,23,80,96,97,98,101,102,103,104,108,109,110,112,113,114,115,118,119,120,129,131,133,138,139,140,142,144,145,146};
+
+	// Enable user-mode access to performance counters
+	asm volatile ("MCR p15, 0, %0, C9, C14, 0\n\t" :: "r"(1));
+	//Enable bit in pmcr for enabeling the events counter and reset them
+	asm volatile ("MCR p15, 0, %0, C9, C12, 0\n\t" :: "r"(0x4109300B));
+	// Enable all counters in pmcntenset
+	asm volatile ("MCR p15, 0, %0, c9, c12, 1\t\n" :: "r"(0x8000003f));
+	for(int i = 0; i < 6; i++){
+		// select PC in pmselr (solo ultimi 4 bit = 8 counters)
+		asm volatile ("MCR p15, 0, %0, c9, c12, 5\t\n" :: "r"(i));
+		// select event to track in pmxevtyper
+		if(c < 7)
+			asm volatile ("MCR p15, 0, %0, C9, C13, 1" :: "r"(events[i+c*6]));
+		//reset value
+	}
+}
+
+static void readPMU(){
+
+
+	unsigned int counter_value;
+	unsigned int evn_type;
+	for(int i = 0; i < 6; i++){
+		//selecting counter in pmselr
+		asm volatile ("MCR p15, 0, %0, C9, C12, 5" :: "r"(i));
+		//reading event type in pmxevtyper
+		asm volatile ("MRC p15, 0, %0, C9, C13, 1" :"=r"(evn_type));
+		//reading counter in pmxevncntr
+		asm volatile ("MRC p15, 0, %0, C9, C13, 2" :"=r"(counter_value));
+		xil_printf("%d: %d\n", evn_type, counter_value);
+	}
+}
+
+static void bubbleSort()
+{
+inizio:	xil_printf("");
+		int n = 5;
+		int v[] = {4, 9, 6, 12, 3};
+		int i,k;
+		int temp;
+		for(i = 0; i<n-1; i++) {
+		 for(k = 0; k<n-1-i; k++) {
+		         if(v[k] > v[k+1]) {
+		          temp = v[k];
+		          v[k] = v[k+1];
+		          v[k+1] = temp;
+		         }
+		 }
+		}
+
+		for(int i = 0; i < 5; i++){
+
+		}
+fine:	xil_printf("");
+		int corr = 1;
+		int v_corr[] = {3,4,6,9,12};
+		char* pointer = (char*)0x10100;
+		for(int i = 0; i < 5; i++){
+			if(v_corr[i] != v[i]){
+				corr = 0;
+			}
+		}
+		if(corr == 0){
+
+			pointer[0] = 0; //not correct
+		}else{
+			pointer[0] = 1;	//correct
+		}
+
+}
+static void targetTask (){
+	int num_task = 2;
+	switch(num_task){
+	case 0:
+		bubbleSort();
+		break;
+	case 1:
+		sha();
+		break;
+	case 2:
+		dijkstra_wrap();
+		break;
+	case 3:
+		qsort_wrap();
+		break;
+	dafault:
+		bubbleSort();
+	}
+}
+
+/*-----------------------------------------------------------*/
+static void prvTxTask( void *pvParameters )
+{
+	confPMU();
+	targetTask();
+	readPMU();
+	xil_printf(""); //solo per mettere final bp
+	vTaskDelete( NULL );
+}
+
+/*-----------------------------------------------------------*/
+
+
+

@@ -1,0 +1,3492 @@
+!SESSION 2023-11-20 10:28:32.994 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/enrico/Desktop/marvin/.metadata/.bak_0.log
+Created Time: 2023-11-20 10:33:06.104
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.104
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.107
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-20 10:33:06.427
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.431
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.432
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.562
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.563
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.565
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2.0]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.565
+!MESSAGE XSCT Command: [version], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.565
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.568
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.572
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.572
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.581
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.585
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.589
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.589
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.597
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.599
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.603
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.603
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.611
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.614
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.618
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.618
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.626
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.627
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.630
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.630
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.638
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.639
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.642
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.643
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.651
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.660
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.660
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.662
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.662
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.668
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.668
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.710
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:06.711
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.716
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.766
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.771
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.771
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.781
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.790
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.817
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:09.818
+!MESSAGE XSCT Command: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.152
+!MESSAGE XSCT command with result: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.169
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.176
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.177
+!MESSAGE XSCT Command: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.208
+!MESSAGE XSCT command with result: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.210
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.211
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.219
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.219
+!MESSAGE XSCT Command: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.220
+!MESSAGE XSCT command with result: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.221
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.513
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.514
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.519
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.519
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.528
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.528
+!MESSAGE XSCT Command: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.828
+!MESSAGE XSCT command with result: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.829
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.856
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.893
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.902
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:12.903
+!MESSAGE XSCT Command: [con], Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:33:13.015
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-8: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-20 10:33:13.018
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-20 10:33:13.019
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.110
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.113
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.114
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.115
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.12",
+}]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-20 10:43:47.115
+!MESSAGE Generating MD5 hash for file: /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.117
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 10:43:47.118
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-20 11:16:50.166
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 16:37:31.388
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-1770
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-20 16:37:31.392
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [{Format=channel "tcfchan#2" closed, Time=1700494651392, Code=1}, ]. Thread: Thread-1770
+!SESSION 2023-11-21 11:11:20.736 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-21 11:11:21.137
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-21 11:11:21.158
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2023-11-21 11:11:25.514
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 11:11:27.872
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 11:11:27.873
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 11:11:27.873
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.185
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.185
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.186
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.188
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.470
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.471
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.471
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.471
+!MESSAGE XSCT Command: [setws /home/enrico/Desktop/marvin], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.471
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.2/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:11:29.472
+!MESSAGE XSCT command with result: [setws /home/enrico/Desktop/marvin], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:40.430
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.540
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.545
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.547
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.547
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.548
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.12",
+}]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 11:13:41.549
+!MESSAGE Generating MD5 hash for file: /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.554
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:41.555
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:43.515
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:43.516
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Tue Mar 14 09:59:07 2023",
+"vivado_version": "2022.2",
+"part": "xc7z020clg400-1",
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.620
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.627
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.638
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.642
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.642
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.652
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.652
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.663
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.664
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.665
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.665
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.666
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.666
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.666
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.667
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.667
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.667
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.668
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.668
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.668
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.669
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.670
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.670
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.677
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.677
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.685
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.688
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.689
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.690
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.690
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.691
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.691
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.692
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.692
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.692
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.693
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.693
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.694
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.696
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.697
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.698
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.698
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.700
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.997
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:44.998
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.120
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.121
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.122
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2.0]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.122
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.123
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.125
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.128
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.128
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.136
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.139
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.142
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.142
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.150
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.151
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.154
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.154
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.162
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.164
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.167
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.167
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.175
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.175
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.179
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.186
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.187
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.190
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.190
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.199
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.199
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.207
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.207
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.208
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.208
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.221
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.221
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.262
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:45.262
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.266
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.286
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.290
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.290
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.298
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.303
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.330
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:48.331
+!MESSAGE XSCT Command: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.662
+!MESSAGE XSCT command with result: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.675
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.680
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.680
+!MESSAGE XSCT Command: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.719
+!MESSAGE XSCT command with result: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.719
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.721
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.721
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.726
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.726
+!MESSAGE XSCT Command: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.727
+!MESSAGE XSCT command with result: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.727
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.929
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.930
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.933
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.934
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.939
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:50.939
+!MESSAGE XSCT Command: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.202
+!MESSAGE XSCT command with result: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.203
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.222
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.245
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.264
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.265
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:13:51.278
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 11:13:51.281
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 11:13:51.281
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:16:08.971
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-157
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 11:16:08.975
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-157
+!SESSION 2023-11-21 21:27:14.633 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-21 21:27:15.043
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-21 21:27:15.066
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2023-11-21 21:27:40.223
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 21:27:42.743
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 21:27:42.744
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-21 21:27:42.744
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.969
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.969
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.969
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.972
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.972
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:43.973
+!MESSAGE XSCT Command: [setws /home/enrico/Desktop/marvin], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:44.306
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:44.306
+!MESSAGE XSCT command with result: [setws /home/enrico/Desktop/marvin], Result: [null, ]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:44.306
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:27:44.307
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:23.743
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.381
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.388
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.391
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.392
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.394
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.12",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 21:29:25.396
+!MESSAGE Generating MD5 hash for file: /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.401
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:25.402
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:28.818
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:28.821
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Tue Mar 14 09:59:07 2023",
+"vivado_version": "2022.2",
+"part": "xc7z020clg400-1",
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.097
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.109
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.126
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.132
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.132
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.140
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.140
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.149
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.151
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.153
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.153
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.154
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.154
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.155
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.155
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.156
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.156
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.157
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.157
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.158
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.158
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.160
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.160
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.167
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.168
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.177
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.178
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.179
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.179
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.179
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.180
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.180
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.181
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.181
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.182
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.182
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.182
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.183
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.185
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.186
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.187
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.188
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa bit], Result: [null, design_1_wrapper.bit]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.190
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.514
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.516
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.646
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.647
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.649
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2.0]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.649
+!MESSAGE XSCT Command: [version], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.650
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.653
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.657
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.657
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.666
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.671
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.675
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.675
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.684
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.686
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.689
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.689
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.698
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.701
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.705
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.706
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.715
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.715
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.719
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.719
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.728
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.729
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.733
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.733
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.742
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.742
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.751
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.752
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.753
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.754
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.760
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.761
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.803
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:30.804
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.807
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.842
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.843
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.852
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.858
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.891
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:33.892
+!MESSAGE XSCT Command: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.224
+!MESSAGE XSCT command with result: [fpga -file /root/git/marvin/Hello_word_freeRTOS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.236
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.246
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.247
+!MESSAGE XSCT Command: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.280
+!MESSAGE XSCT command with result: [loadhw -hw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.280
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.282
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.283
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.289
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.290
+!MESSAGE XSCT Command: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.291
+!MESSAGE XSCT command with result: [source /root/git/marvin/Hello_word_freeRTOS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.291
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.587
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.588
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.598
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.598
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.604
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.604
+!MESSAGE XSCT Command: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.879
+!MESSAGE XSCT command with result: [dow /root/git/marvin/Hello_word_freeRTOS/Debug/Hello_word_freeRTOS.elf], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.880
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.902
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.929
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.936
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.937
+!MESSAGE XSCT Command: [con], Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:29:36.950
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_Hello_word_freeRTOS_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 21:29:36.953
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-21 21:29:36.954
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:33:25.833
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-167
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:33:25.841
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-167
+!SESSION 2023-11-28 16:25:11.282 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-28 16:25:11.685
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-28 16:25:11.708
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2023-11-28 16:25:16.156
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-28 16:25:18.583
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-28 16:25:18.584
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-28 16:25:18.584
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:19.888
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:19.889
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:19.889
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.166
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.167
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.167
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.167
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.167
+!MESSAGE XSCT Command: [setws /home/enrico/Desktop/marvin], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.168
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-28 16:25:20.168
+!MESSAGE XSCT command with result: [setws /home/enrico/Desktop/marvin], Result: [null, ]. Thread: Thread-18
+!SESSION 2023-11-29 12:08:57.991 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-29 12:08:58.410
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2023-11-29 12:08:58.432
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2023-11-29 12:09:02.913
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-29 12:09:05.395
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-29 12:09:05.396
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-29 12:09:05.396
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.600
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.601
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.601
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.603
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.604
+!MESSAGE XSCT Command: [setws /home/enrico/Desktop/marvin], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.951
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.951
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.951
+!MESSAGE XSCT command with result: [setws /home/enrico/Desktop/marvin], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.951
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 12:09:06.952
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.2/data]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:31.483
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.621
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa], Result: [null, ]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.626
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.628
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.629
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.630
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.12",
+}]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-29 13:31:32.630
+!MESSAGE Generating MD5 hash for file: /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.635
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:31:32.636
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-13: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:35:11.888
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:35:54.911
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:36:31.719
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:37:16.771
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:37:47.174
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.883
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Thread: Worker-11: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.886
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-11: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.886
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-11: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.887
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.12",
+}]. Thread: Worker-11: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-29 13:41:55.888
+!MESSAGE Generating MD5 hash for file: /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.889
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Thread: Worker-11: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 13:41:55.890
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-11: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:52:12.632
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:56:22.848
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 13:58:30.839
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-29 15:05:06.173
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)

@@ -1,0 +1,640 @@
+timestamp=[2023-05-11 14:53:42], mode=WORKBENCH_START, duration=0:00:03.510, duration_ms=3510, data={}
+timestamp=[2023-05-11 14:53:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.245, duration_ms=245, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-05-11 14:53:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.171, duration_ms=171, data={}
+timestamp=[2023-05-11 14:57:42], mode=PLATFORM_GENERATION, duration=0:00:05.940, duration_ms=5940, data={name=design_1_wrapper}
+timestamp=[2023-05-11 14:57:43], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 14:58:04], mode=BUILD, duration=0:00:00.180, duration_ms=180, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 14:58:29], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:00:19], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:05:04], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 16:03:24], mode=WORKBENCH_START, duration=0:00:04.260, duration_ms=4260, data={}
+timestamp=[2023-05-11 16:03:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.163, duration_ms=163, data={}
+timestamp=[2023-05-11 16:03:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.483, duration_ms=483, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-11 16:42:35], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 16:42:52], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:43:41], mode=WORKBENCH_START, duration=0:00:04.549, duration_ms=4549, data={}
+timestamp=[2023-05-16 10:43:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.222, duration_ms=222, data={}
+timestamp=[2023-05-16 10:43:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.542, duration_ms=542, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-16 10:43:51], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:47:02], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:47:29], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:48:26], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:57:19], mode=WORKBENCH_START, duration=0:00:04.108, duration_ms=4108, data={}
+timestamp=[2023-05-16 10:57:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.175, duration_ms=175, data={}
+timestamp=[2023-05-16 10:57:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.500, duration_ms=500, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-16 10:57:32], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 10:58:53], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 11:38:35], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 11:57:00], mode=BUILD, duration=0:00:00.172, duration_ms=172, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 12:03:54], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 12:11:43], mode=WORKBENCH_START, duration=0:00:03.819, duration_ms=3819, data={}
+timestamp=[2023-05-16 12:11:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.166, duration_ms=166, data={}
+timestamp=[2023-05-16 12:11:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.482, duration_ms=482, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-16 12:12:07], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 12:16:05], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 14:48:21], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 14:52:00], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 14:52:05], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 15:18:22], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 15:18:43], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 15:31:51], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 15:36:08], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 15:43:45], mode=WORKBENCH_START, duration=0:00:03.798, duration_ms=3798, data={}
+timestamp=[2023-05-16 15:43:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.231, duration_ms=231, data={}
+timestamp=[2023-05-16 15:43:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.653, duration_ms=653, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-16 16:25:53], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 16:37:10], mode=WORKBENCH_START, duration=0:00:04.098, duration_ms=4098, data={}
+timestamp=[2023-05-16 16:37:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.214, duration_ms=214, data={}
+timestamp=[2023-05-16 16:37:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.498, duration_ms=498, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-16 16:37:17], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-16 16:55:52], mode=WORKBENCH_START, duration=0:00:04.383, duration_ms=4383, data={}
+timestamp=[2023-05-16 16:55:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.188, duration_ms=188, data={}
+timestamp=[2023-05-16 16:55:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.610, duration_ms=610, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 10:44:21], mode=WORKBENCH_START, duration=0:00:04.484, duration_ms=4484, data={}
+timestamp=[2023-05-17 10:44:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.258, duration_ms=258, data={}
+timestamp=[2023-05-17 10:44:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.628, duration_ms=628, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 11:56:31], mode=PLATFORM_GENERATION, duration=0:00:06.032, duration_ms=6032, data={name=design_1_wrapper}
+timestamp=[2023-05-17 11:56:33], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 12:02:40], mode=WORKBENCH_START, duration=0:00:04.119, duration_ms=4119, data={}
+timestamp=[2023-05-17 12:02:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.208, duration_ms=208, data={}
+timestamp=[2023-05-17 12:02:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.380, duration_ms=380, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 12:06:27], mode=WORKBENCH_START, duration=0:00:04.545, duration_ms=4545, data={}
+timestamp=[2023-05-17 12:06:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.200, duration_ms=200, data={}
+timestamp=[2023-05-17 12:06:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.380, duration_ms=380, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 12:07:02], mode=WORKBENCH_START, duration=0:00:04.197, duration_ms=4197, data={}
+timestamp=[2023-05-17 12:07:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.167, duration_ms=167, data={}
+timestamp=[2023-05-17 12:07:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.341, duration_ms=341, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 12:07:25], mode=WORKBENCH_START, duration=0:00:04.178, duration_ms=4178, data={}
+timestamp=[2023-05-17 12:07:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.195, duration_ms=195, data={}
+timestamp=[2023-05-17 12:07:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.373, duration_ms=373, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 12:20:13], mode=PLATFORM_GENERATION, duration=0:00:06.053, duration_ms=6053, data={name=design_1_wrapper}
+timestamp=[2023-05-17 12:20:15], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 13:46:27], mode=WORKBENCH_START, duration=0:00:03.958, duration_ms=3958, data={}
+timestamp=[2023-05-17 13:46:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.163, duration_ms=163, data={}
+timestamp=[2023-05-17 13:46:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.451, duration_ms=451, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 13:49:39], mode=WORKBENCH_START, duration=0:00:03.887, duration_ms=3887, data={}
+timestamp=[2023-05-17 13:49:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.181, duration_ms=181, data={}
+timestamp=[2023-05-17 13:49:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.548, duration_ms=548, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 13:54:13], mode=WORKBENCH_START, duration=0:00:04.180, duration_ms=4180, data={}
+timestamp=[2023-05-17 13:54:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.195, duration_ms=195, data={}
+timestamp=[2023-05-17 13:54:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.602, duration_ms=602, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 14:02:46], mode=WORKBENCH_START, duration=0:00:03.975, duration_ms=3975, data={}
+timestamp=[2023-05-17 14:02:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.185, duration_ms=185, data={}
+timestamp=[2023-05-17 14:02:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.623, duration_ms=623, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 14:05:51], mode=WORKBENCH_START, duration=0:00:04.107, duration_ms=4107, data={}
+timestamp=[2023-05-17 14:05:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.211, duration_ms=211, data={}
+timestamp=[2023-05-17 14:05:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.460, duration_ms=460, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 14:07:13], mode=WORKBENCH_START, duration=0:00:03.963, duration_ms=3963, data={}
+timestamp=[2023-05-17 14:07:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.240, duration_ms=240, data={}
+timestamp=[2023-05-17 14:07:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.496, duration_ms=496, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 14:07:26], mode=PLATFORM_GENERATION, duration=0:00:05.986, duration_ms=5986, data={name=design_1_wrapper}
+timestamp=[2023-05-17 14:07:27], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 15:17:38], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 15:21:32], mode=WORKBENCH_START, duration=0:00:03.969, duration_ms=3969, data={}
+timestamp=[2023-05-17 15:21:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.196, duration_ms=196, data={}
+timestamp=[2023-05-17 15:21:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.510, duration_ms=510, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 15:22:04], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 15:28:10], mode=WORKBENCH_START, duration=0:00:04.319, duration_ms=4319, data={}
+timestamp=[2023-05-17 15:28:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.262, duration_ms=262, data={}
+timestamp=[2023-05-17 15:28:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.616, duration_ms=616, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 15:42:32], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 15:43:23], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 15:46:29], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 16:36:57], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 16:38:06], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 16:40:53], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 16:45:09], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 16:52:48], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-17 17:08:03], mode=WORKBENCH_START, duration=0:00:03.870, duration_ms=3870, data={}
+timestamp=[2023-05-17 17:08:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.174, duration_ms=174, data={}
+timestamp=[2023-05-17 17:08:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.593, duration_ms=593, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 17:32:20], mode=WORKBENCH_START, duration=0:00:03.876, duration_ms=3876, data={}
+timestamp=[2023-05-17 17:32:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.240, duration_ms=240, data={}
+timestamp=[2023-05-17 17:32:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.589, duration_ms=589, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-17 17:36:28], mode=WORKBENCH_START, duration=0:00:03.918, duration_ms=3918, data={}
+timestamp=[2023-05-17 17:36:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.230, duration_ms=230, data={}
+timestamp=[2023-05-17 17:36:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.536, duration_ms=536, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 10:37:56], mode=WORKBENCH_START, duration=0:00:04.681, duration_ms=4681, data={}
+timestamp=[2023-05-18 10:37:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.236, duration_ms=236, data={}
+timestamp=[2023-05-18 10:37:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.498, duration_ms=498, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 10:56:55], mode=PLATFORM_GENERATION, duration=0:00:05.923, duration_ms=5923, data={name=design_1_wrapper}
+timestamp=[2023-05-18 10:56:56], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 11:48:52], mode=WORKBENCH_START, duration=0:00:03.805, duration_ms=3805, data={}
+timestamp=[2023-05-18 11:48:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.195, duration_ms=195, data={}
+timestamp=[2023-05-18 11:48:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.673, duration_ms=673, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 11:51:42], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 12:18:04], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 12:19:26], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 12:22:53], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 12:24:57], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 12:28:08], mode=WORKBENCH_START, duration=0:00:03.891, duration_ms=3891, data={}
+timestamp=[2023-05-18 12:28:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.207, duration_ms=207, data={}
+timestamp=[2023-05-18 12:28:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.618, duration_ms=618, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 15:23:17], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 15:23:35], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 15:23:41], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 16:04:25], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 16:04:49], mode=WORKBENCH_START, duration=0:00:03.844, duration_ms=3844, data={}
+timestamp=[2023-05-18 16:04:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.174, duration_ms=174, data={}
+timestamp=[2023-05-18 16:04:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.497, duration_ms=497, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 16:05:33], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 16:09:54], mode=WORKBENCH_START, duration=0:00:04.315, duration_ms=4315, data={}
+timestamp=[2023-05-18 16:09:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.231, duration_ms=231, data={}
+timestamp=[2023-05-18 16:09:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.719, duration_ms=719, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-18 17:06:43], mode=BUILD, duration=0:00:00.308, duration_ms=308, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 10:04:00], mode=WORKBENCH_START, duration=0:00:04.630, duration_ms=4630, data={}
+timestamp=[2023-05-23 10:04:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.205, duration_ms=205, data={}
+timestamp=[2023-05-23 10:04:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.565, duration_ms=565, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 10:24:57], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 10:48:22], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 10:55:10], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 10:57:14], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 11:06:24], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 11:20:50], mode=WORKBENCH_START, duration=0:00:04.596, duration_ms=4596, data={}
+timestamp=[2023-05-23 11:20:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.206, duration_ms=206, data={}
+timestamp=[2023-05-23 11:20:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.648, duration_ms=648, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 12:08:43], mode=WORKBENCH_START, duration=0:00:04.446, duration_ms=4446, data={}
+timestamp=[2023-05-23 12:08:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.220, duration_ms=220, data={}
+timestamp=[2023-05-23 12:08:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.543, duration_ms=543, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 12:08:52], mode=PLATFORM_GENERATION, duration=0:00:06.102, duration_ms=6102, data={name=design_1_wrapper}
+timestamp=[2023-05-23 12:08:54], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 13:20:57], mode=WORKBENCH_START, duration=0:00:04.252, duration_ms=4252, data={}
+timestamp=[2023-05-23 13:20:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.170, duration_ms=170, data={}
+timestamp=[2023-05-23 13:20:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 14:05:13], mode=WORKBENCH_START, duration=0:00:04.306, duration_ms=4306, data={}
+timestamp=[2023-05-23 14:05:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.255, duration_ms=255, data={}
+timestamp=[2023-05-23 14:05:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.616, duration_ms=616, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 14:33:06], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:34:52], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:40:45], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:43:27], mode=WORKBENCH_START, duration=0:00:03.917, duration_ms=3917, data={}
+timestamp=[2023-05-23 14:43:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.247, duration_ms=247, data={}
+timestamp=[2023-05-23 14:43:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.686, duration_ms=686, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 14:55:28], mode=WORKBENCH_START, duration=0:00:04.064, duration_ms=4064, data={}
+timestamp=[2023-05-23 14:55:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.250, duration_ms=250, data={}
+timestamp=[2023-05-23 14:55:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.658, duration_ms=658, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 14:55:44], mode=PLATFORM_GENERATION, duration=0:00:05.926, duration_ms=5926, data={name=design_1_wrapper}
+timestamp=[2023-05-23 14:55:46], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:58:43], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 14:59:25], mode=WORKBENCH_START, duration=0:00:03.896, duration_ms=3896, data={}
+timestamp=[2023-05-23 14:59:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.183, duration_ms=183, data={}
+timestamp=[2023-05-23 14:59:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.516, duration_ms=516, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 14:59:32], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 15:30:08], mode=WORKBENCH_START, duration=0:00:04.166, duration_ms=4166, data={}
+timestamp=[2023-05-23 15:30:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.233, duration_ms=233, data={}
+timestamp=[2023-05-23 15:30:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.613, duration_ms=613, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-23 15:31:21], mode=BUILD, duration=0:00:00.294, duration_ms=294, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 15:37:32], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 15:55:37], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 15:59:13], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-23 16:03:26], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 09:58:23], mode=WORKBENCH_START, duration=0:00:04.763, duration_ms=4763, data={}
+timestamp=[2023-05-24 09:58:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.196, duration_ms=196, data={}
+timestamp=[2023-05-24 09:58:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.697, duration_ms=697, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-24 10:46:51], mode=WORKBENCH_START, duration=0:00:04.566, duration_ms=4566, data={}
+timestamp=[2023-05-24 10:46:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.219, duration_ms=219, data={}
+timestamp=[2023-05-24 10:46:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.487, duration_ms=487, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-24 11:45:37], mode=WORKBENCH_START, duration=0:00:04.373, duration_ms=4373, data={}
+timestamp=[2023-05-24 11:45:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.177, duration_ms=177, data={}
+timestamp=[2023-05-24 11:45:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.522, duration_ms=522, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-24 13:28:36], mode=PLATFORM_GENERATION, duration=0:00:05.985, duration_ms=5985, data={name=design_1_wrapper}
+timestamp=[2023-05-24 13:28:37], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:29:20], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:29:26], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 13:30:47], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:18:30], mode=BUILD, duration=0:00:00.230, duration_ms=230, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 14:28:24], mode=WORKBENCH_START, duration=0:00:04.298, duration_ms=4298, data={}
+timestamp=[2023-05-24 14:28:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.231, duration_ms=231, data={}
+timestamp=[2023-05-24 14:28:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.609, duration_ms=609, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-24 14:36:51], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:16:08], mode=WORKBENCH_START, duration=0:00:04.594, duration_ms=4594, data={}
+timestamp=[2023-05-25 11:16:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.180, duration_ms=180, data={}
+timestamp=[2023-05-25 11:16:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.475, duration_ms=475, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-05-25 11:22:56], mode=BUILD, duration=0:00:00.308, duration_ms=308, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:27:00], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:51:50], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:53:26], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 14:02:38], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-05-30 09:44:41], mode=WORKBENCH_START, duration=0:00:04.563, duration_ms=4563, data={}
+timestamp=[2023-05-30 09:44:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.245, duration_ms=245, data={}
+timestamp=[2023-05-30 09:44:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.517, duration_ms=517, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-13 14:33:14], mode=WORKBENCH_START, duration=0:00:04.602, duration_ms=4602, data={}
+timestamp=[2023-07-13 14:33:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.213, duration_ms=213, data={}
+timestamp=[2023-07-13 14:33:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.506, duration_ms=506, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-13 14:42:04], mode=WORKBENCH_START, duration=0:00:04.112, duration_ms=4112, data={}
+timestamp=[2023-07-13 14:42:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.157, duration_ms=157, data={}
+timestamp=[2023-07-13 14:42:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.660, duration_ms=660, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-13 15:57:51], mode=WORKBENCH_START, duration=0:00:04.130, duration_ms=4130, data={}
+timestamp=[2023-07-13 15:57:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.213, duration_ms=213, data={}
+timestamp=[2023-07-13 15:57:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.515, duration_ms=515, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-13 16:18:04], mode=WORKBENCH_START, duration=0:00:04.007, duration_ms=4007, data={}
+timestamp=[2023-07-13 16:18:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.175, duration_ms=175, data={}
+timestamp=[2023-07-13 16:18:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.584, duration_ms=584, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-13 16:38:25], mode=PLATFORM_GENERATION, duration=0:00:05.884, duration_ms=5884, data={name=design_1_wrapper}
+timestamp=[2023-07-13 16:38:27], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:38:58], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:41:15], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:42:13], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:43:16], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:46:20], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:47:52], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:54:39], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:54:53], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:55:18], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:55:37], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:56:20], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 16:58:08], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 17:45:14], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 17:48:38], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:20:01], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:20:24], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:20:48], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:21:20], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:24:30], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-13 18:26:37], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 09:22:08], mode=WORKBENCH_START, duration=0:00:04.571, duration_ms=4571, data={}
+timestamp=[2023-07-14 09:22:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.185, duration_ms=185, data={}
+timestamp=[2023-07-14 09:22:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.520, duration_ms=520, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 09:50:15], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 09:52:29], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:06:51], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:08:46], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:22:48], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:28:11], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:40:40], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:44:46], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:49:41], mode=WORKBENCH_START, duration=0:00:04.009, duration_ms=4009, data={}
+timestamp=[2023-07-14 10:49:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.248, duration_ms=248, data={}
+timestamp=[2023-07-14 10:49:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.631, duration_ms=631, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 10:50:01], mode=BUILD, duration=0:00:00.147, duration_ms=147, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 10:56:48], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:00:42], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:02:03], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:11:29], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:15:33], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:16:39], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:24:03], mode=WORKBENCH_START, duration=0:00:04.449, duration_ms=4449, data={}
+timestamp=[2023-07-14 11:24:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.218, duration_ms=218, data={}
+timestamp=[2023-07-14 11:24:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.643, duration_ms=643, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 11:24:56], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:25:15], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:25:37], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:27:24], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:28:27], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:30:31], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:30:56], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:32:25], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:33:38], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:37:09], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:37:17], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:46:01], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:47:37], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 11:51:55], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 12:08:30], mode=WORKBENCH_START, duration=0:00:03.333, duration_ms=3333, data={}
+timestamp=[2023-07-14 12:08:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.227, duration_ms=227, data={}
+timestamp=[2023-07-14 12:08:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.572, duration_ms=572, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 12:10:29], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 12:10:57], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 12:11:19], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 12:17:27], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-14 12:23:01], mode=WORKBENCH_START, duration=0:00:04.070, duration_ms=4070, data={}
+timestamp=[2023-07-14 12:23:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.225, duration_ms=225, data={}
+timestamp=[2023-07-14 12:23:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.547, duration_ms=547, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 14:00:32], mode=WORKBENCH_START, duration=0:00:04.427, duration_ms=4427, data={}
+timestamp=[2023-07-14 14:00:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.201, duration_ms=201, data={}
+timestamp=[2023-07-14 14:00:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.560, duration_ms=560, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-14 15:35:24], mode=BUILD, duration=0:00:00.294, duration_ms=294, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-17 11:13:44], mode=WORKBENCH_START, duration=0:00:04.231, duration_ms=4231, data={}
+timestamp=[2023-07-17 11:13:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.230, duration_ms=230, data={}
+timestamp=[2023-07-17 11:13:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.555, duration_ms=555, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-20 09:39:08], mode=WORKBENCH_START, duration=0:00:04.389, duration_ms=4389, data={}
+timestamp=[2023-07-20 09:39:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.199, duration_ms=199, data={}
+timestamp=[2023-07-20 09:39:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.483, duration_ms=483, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-20 09:51:49], mode=BUILD, duration=0:00:00.291, duration_ms=291, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 09:53:39], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 09:57:27], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 10:00:49], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 10:45:53], mode=WORKBENCH_START, duration=0:00:04.023, duration_ms=4023, data={}
+timestamp=[2023-07-20 10:45:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.217, duration_ms=217, data={}
+timestamp=[2023-07-20 10:45:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.458, duration_ms=458, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-07-20 10:46:07], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-20 10:46:38], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-07-27 18:06:10], mode=WORKBENCH_START, duration=0:00:04.210, duration_ms=4210, data={}
+timestamp=[2023-07-27 18:06:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.216, duration_ms=216, data={}
+timestamp=[2023-07-27 18:06:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.551, duration_ms=551, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-08-04 12:43:54], mode=WORKBENCH_START, duration=0:00:04.667, duration_ms=4667, data={}
+timestamp=[2023-08-04 12:43:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.240, duration_ms=240, data={}
+timestamp=[2023-08-04 12:43:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.494, duration_ms=494, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-08-04 13:38:31], mode=PLATFORM_GENERATION, duration=0:00:06.095, duration_ms=6095, data={name=design_1_wrapper}
+timestamp=[2023-08-04 13:38:32], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:48:52], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:49:56], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:50:16], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:50:23], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:51:29], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:52:06], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:55:29], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 13:56:58], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 14:00:38], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 14:06:34], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 14:06:43], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 14:07:49], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 14:19:36], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-04 18:23:03], mode=WORKBENCH_START, duration=0:00:04.531, duration_ms=4531, data={}
+timestamp=[2023-08-04 18:23:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.216, duration_ms=216, data={}
+timestamp=[2023-08-04 18:23:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.572, duration_ms=572, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-08-21 15:32:48], mode=WORKBENCH_START, duration=0:00:04.739, duration_ms=4739, data={}
+timestamp=[2023-08-21 15:32:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.183, duration_ms=183, data={}
+timestamp=[2023-08-21 15:32:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.595, duration_ms=595, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-08-21 15:33:39], mode=PLATFORM_GENERATION, duration=0:00:06.135, duration_ms=6135, data={name=design_1_wrapper}
+timestamp=[2023-08-21 15:33:40], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-21 16:47:06], mode=WORKBENCH_START, duration=0:00:04.324, duration_ms=4324, data={}
+timestamp=[2023-08-21 16:47:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.204, duration_ms=204, data={}
+timestamp=[2023-08-21 16:47:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.536, duration_ms=536, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-08-21 16:52:16], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-08-21 16:56:13], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-08 15:36:03], mode=WORKBENCH_START, duration=0:00:04.570, duration_ms=4570, data={}
+timestamp=[2023-09-08 15:36:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.223, duration_ms=223, data={}
+timestamp=[2023-09-08 15:36:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.509, duration_ms=509, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-16 16:20:30], mode=WORKBENCH_START, duration=0:00:04.932, duration_ms=4932, data={}
+timestamp=[2023-09-16 16:20:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.228, duration_ms=228, data={}
+timestamp=[2023-09-16 16:20:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.646, duration_ms=646, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-17 14:01:31], mode=PLATFORM_GENERATION, duration=0:00:06.050, duration_ms=6050, data={name=design_1_wrapper}
+timestamp=[2023-09-17 14:01:32], mode=BUILD, duration=0:00:00.232, duration_ms=232, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:02:21], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:02:53], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:03:48], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:07:22], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:07:42], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:08:35], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:08:55], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:09:49], mode=BUILD, duration=0:00:00.376, duration_ms=376, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:18:38], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:19:48], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:30:38], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:31:07], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:31:46], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 14:44:19], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:20:01], mode=WORKBENCH_START, duration=0:00:04.241, duration_ms=4241, data={}
+timestamp=[2023-09-17 15:20:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.171, duration_ms=171, data={}
+timestamp=[2023-09-17 15:20:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.539, duration_ms=539, data={editors_count=8, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-17 15:20:41], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:25:22], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:26:33], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:32:22], mode=WORKBENCH_START, duration=0:00:04.322, duration_ms=4322, data={}
+timestamp=[2023-09-17 15:32:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.186, duration_ms=186, data={}
+timestamp=[2023-09-17 15:32:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.632, duration_ms=632, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-17 15:34:49], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:40:27], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:42:41], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:43:25], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:45:38], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 15:47:00], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 17:03:32], mode=WORKBENCH_START, duration=0:00:04.244, duration_ms=4244, data={}
+timestamp=[2023-09-17 17:03:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.192, duration_ms=192, data={}
+timestamp=[2023-09-17 17:03:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.525, duration_ms=525, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-17 17:03:44], mode=BUILD, duration=0:00:00.258, duration_ms=258, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 17:11:58], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 17:13:36], mode=WORKBENCH_START, duration=0:00:04.389, duration_ms=4389, data={}
+timestamp=[2023-09-17 17:13:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.191, duration_ms=191, data={}
+timestamp=[2023-09-17 17:13:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.606, duration_ms=606, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-17 17:13:43], mode=BUILD, duration=0:00:00.147, duration_ms=147, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-17 17:19:22], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 15:01:23], mode=WORKBENCH_START, duration=0:00:04.839, duration_ms=4839, data={}
+timestamp=[2023-09-18 15:01:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.198, duration_ms=198, data={}
+timestamp=[2023-09-18 15:01:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.596, duration_ms=596, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-18 15:43:56], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 15:57:20], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 15:58:05], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:05:25], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:16:31], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:17:03], mode=WORKBENCH_START, duration=0:00:04.077, duration_ms=4077, data={}
+timestamp=[2023-09-18 16:17:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.186, duration_ms=186, data={}
+timestamp=[2023-09-18 16:17:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.520, duration_ms=520, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-18 16:19:31], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:19:40], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:36:22], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 16:47:21], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:07:08], mode=WORKBENCH_START, duration=0:00:03.982, duration_ms=3982, data={}
+timestamp=[2023-09-18 17:07:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.166, duration_ms=166, data={}
+timestamp=[2023-09-18 17:07:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.558, duration_ms=558, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-18 17:09:25], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:10:01], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:38:01], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:39:46], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:41:14], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:42:42], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 17:53:05], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:00:29], mode=WORKBENCH_START, duration=0:00:04.120, duration_ms=4120, data={}
+timestamp=[2023-09-18 18:00:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.177, duration_ms=177, data={}
+timestamp=[2023-09-18 18:00:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.518, duration_ms=518, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-18 18:01:58], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:02:48], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:06:03], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:12:27], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:12:41], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:13:03], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:14:54], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:17:41], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-18 18:20:45], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:20:26], mode=WORKBENCH_START, duration=0:00:04.797, duration_ms=4797, data={}
+timestamp=[2023-09-19 09:20:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.204, duration_ms=204, data={}
+timestamp=[2023-09-19 09:20:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.534, duration_ms=534, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-19 09:21:18], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:22:05], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:26:40], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:37:44], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:38:12], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:38:24], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:39:37], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:40:16], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:40:32], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:40:53], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:41:15], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:48:01], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=true}
+timestamp=[2023-09-19 09:48:01], mode=BUILD, duration=0:00:00.379, duration_ms=379, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:48:22], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 09:48:40], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:02:22], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:03:01], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:05:32], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:05:44], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:30:27], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:31:18], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:34:28], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:41:06], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:41:43], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:43:23], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:45:19], mode=WORKBENCH_START, duration=0:00:04.425, duration_ms=4425, data={}
+timestamp=[2023-09-19 10:45:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.182, duration_ms=182, data={}
+timestamp=[2023-09-19 10:45:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.553, duration_ms=553, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-19 10:48:21], mode=WORKBENCH_START, duration=0:00:04.641, duration_ms=4641, data={}
+timestamp=[2023-09-19 10:48:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.237, duration_ms=237, data={}
+timestamp=[2023-09-19 10:48:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.648, duration_ms=648, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-19 10:49:58], mode=PLATFORM_GENERATION, duration=0:00:06.058, duration_ms=6058, data={name=design_1_wrapper}
+timestamp=[2023-09-19 10:49:59], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:56:45], mode=BUILD, duration=0:00:00.374, duration_ms=374, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 10:57:47], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:02:12], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:33:50], mode=BUILD, duration=0:00:00.230, duration_ms=230, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:35:19], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:37:04], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:41:11], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:41:38], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 11:44:15], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 12:23:05], mode=WORKBENCH_START, duration=0:00:04.113, duration_ms=4113, data={}
+timestamp=[2023-09-19 12:23:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.227, duration_ms=227, data={}
+timestamp=[2023-09-19 12:23:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.589, duration_ms=589, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-19 12:23:37], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 12:24:09], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 12:31:50], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 12:33:53], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-19 12:35:16], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-20 15:08:06], mode=WORKBENCH_START, duration=0:00:04.628, duration_ms=4628, data={}
+timestamp=[2023-09-20 15:08:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.213, duration_ms=213, data={}
+timestamp=[2023-09-20 15:08:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.527, duration_ms=527, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-22 10:45:47], mode=WORKBENCH_START, duration=0:00:04.699, duration_ms=4699, data={}
+timestamp=[2023-09-22 10:45:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.277, duration_ms=277, data={}
+timestamp=[2023-09-22 10:45:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.493, duration_ms=493, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-22 10:46:35], mode=PLATFORM_GENERATION, duration=0:00:06.107, duration_ms=6107, data={name=design_1_wrapper}
+timestamp=[2023-09-22 10:46:36], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:09:15], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:17:07], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:23:09], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:26:03], mode=BUILD, duration=0:00:00.180, duration_ms=180, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:36:14], mode=BUILD, duration=0:00:00.180, duration_ms=180, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:40:55], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 11:41:02], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 14:03:49], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 14:34:13], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 14:36:56], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-22 17:45:40], mode=WORKBENCH_START, duration=0:00:04.515, duration_ms=4515, data={}
+timestamp=[2023-09-22 17:45:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.227, duration_ms=227, data={}
+timestamp=[2023-09-22 17:45:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.673, duration_ms=673, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-26 11:07:28], mode=WORKBENCH_START, duration=0:00:04.791, duration_ms=4791, data={}
+timestamp=[2023-09-26 11:07:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.232, duration_ms=232, data={}
+timestamp=[2023-09-26 11:07:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.534, duration_ms=534, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-26 11:10:24], mode=WORKBENCH_START, duration=0:00:04.141, duration_ms=4141, data={}
+timestamp=[2023-09-26 11:10:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.245, duration_ms=245, data={}
+timestamp=[2023-09-26 11:10:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.516, duration_ms=516, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-26 11:16:10], mode=PLATFORM_GENERATION, duration=0:00:06.250, duration_ms=6250, data={name=design_1_wrapper}
+timestamp=[2023-09-26 11:16:12], mode=BUILD, duration=0:00:00.428, duration_ms=428, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-26 11:42:46], mode=WORKBENCH_START, duration=0:00:04.279, duration_ms=4279, data={}
+timestamp=[2023-09-26 11:42:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.165, duration_ms=165, data={}
+timestamp=[2023-09-26 11:42:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.506, duration_ms=506, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-26 11:47:25], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-26 11:48:28], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-26 11:51:08], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-09-26 14:58:23], mode=WORKBENCH_START, duration=0:00:04.373, duration_ms=4373, data={}
+timestamp=[2023-09-26 14:58:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.200, duration_ms=200, data={}
+timestamp=[2023-09-26 14:58:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.555, duration_ms=555, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-09-26 14:59:06], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-10-30 14:39:23], mode=WORKBENCH_START, duration=0:00:04.377, duration_ms=4377, data={}
+timestamp=[2023-10-30 14:39:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.187, duration_ms=187, data={}
+timestamp=[2023-10-30 14:39:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-10-30 14:57:32], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-10-30 16:21:20], mode=WORKBENCH_START, duration=0:00:04.046, duration_ms=4046, data={}
+timestamp=[2023-10-30 16:21:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.183, duration_ms=183, data={}
+timestamp=[2023-10-30 16:21:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.540, duration_ms=540, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-10-30 17:18:39], mode=WORKBENCH_START, duration=0:00:03.984, duration_ms=3984, data={}
+timestamp=[2023-10-30 17:18:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.223, duration_ms=223, data={}
+timestamp=[2023-10-30 17:18:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.555, duration_ms=555, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-10-31 16:23:21], mode=WORKBENCH_START, duration=0:00:04.416, duration_ms=4416, data={}
+timestamp=[2023-10-31 16:23:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.221, duration_ms=221, data={}
+timestamp=[2023-10-31 16:23:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.562, duration_ms=562, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-07 17:14:32], mode=WORKBENCH_START, duration=0:00:04.451, duration_ms=4451, data={}
+timestamp=[2023-11-07 17:14:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.253, duration_ms=253, data={}
+timestamp=[2023-11-07 17:14:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.556, duration_ms=556, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-08 10:08:20], mode=WORKBENCH_START, duration=0:00:04.683, duration_ms=4683, data={}
+timestamp=[2023-11-08 10:08:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.266, duration_ms=266, data={}
+timestamp=[2023-11-08 10:08:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.558, duration_ms=558, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-08 14:56:47], mode=WORKBENCH_START, duration=0:00:04.111, duration_ms=4111, data={}
+timestamp=[2023-11-08 14:56:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.202, duration_ms=202, data={}
+timestamp=[2023-11-08 14:56:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.562, duration_ms=562, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-08 14:57:48], mode=PLATFORM_GENERATION, duration=0:00:06.516, duration_ms=6516, data={name=design_1_wrapper}
+timestamp=[2023-11-08 14:57:50], mode=BUILD, duration=0:00:00.692, duration_ms=692, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-08 15:26:19], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-08 15:54:51], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-08 17:09:33], mode=WORKBENCH_START, duration=0:00:04.437, duration_ms=4437, data={}
+timestamp=[2023-11-08 17:09:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.228, duration_ms=228, data={}
+timestamp=[2023-11-08 17:09:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.530, duration_ms=530, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-08 18:00:42], mode=PLATFORM_GENERATION, duration=0:00:06.385, duration_ms=6385, data={name=design_1_wrapper}
+timestamp=[2023-11-08 18:00:44], mode=BUILD, duration=0:00:00.635, duration_ms=635, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-09 11:32:55], mode=WORKBENCH_START, duration=0:00:04.774, duration_ms=4774, data={}
+timestamp=[2023-11-09 11:32:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.208, duration_ms=208, data={}
+timestamp=[2023-11-09 11:32:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.568, duration_ms=568, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-10 14:40:25], mode=WORKBENCH_START, duration=0:00:04.503, duration_ms=4503, data={}
+timestamp=[2023-11-10 14:40:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.200, duration_ms=200, data={}
+timestamp=[2023-11-10 14:40:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.575, duration_ms=575, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-10 15:22:27], mode=WORKBENCH_START, duration=0:00:04.250, duration_ms=4250, data={}
+timestamp=[2023-11-10 15:22:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.226, duration_ms=226, data={}
+timestamp=[2023-11-10 15:22:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.569, duration_ms=569, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-11 17:34:01], mode=WORKBENCH_START, duration=0:00:04.834, duration_ms=4834, data={}
+timestamp=[2023-11-11 17:34:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.189, duration_ms=189, data={}
+timestamp=[2023-11-11 17:34:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.598, duration_ms=598, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-13 11:22:35], mode=WORKBENCH_START, duration=0:00:04.916, duration_ms=4916, data={}
+timestamp=[2023-11-13 11:22:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.213, duration_ms=213, data={}
+timestamp=[2023-11-13 11:22:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.580, duration_ms=580, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-13 11:34:19], mode=PLATFORM_GENERATION, duration=0:00:06.488, duration_ms=6488, data={name=design_1_wrapper}
+timestamp=[2023-11-13 11:34:22], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-13 12:08:41], mode=WORKBENCH_START, duration=0:00:04.458, duration_ms=4458, data={}
+timestamp=[2023-11-13 12:08:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.184, duration_ms=184, data={}
+timestamp=[2023-11-13 12:08:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.585, duration_ms=585, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-13 12:09:18], mode=BUILD, duration=0:00:00.255, duration_ms=255, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-13 16:42:39], mode=WORKBENCH_START, duration=0:00:04.071, duration_ms=4071, data={}
+timestamp=[2023-11-13 16:42:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.209, duration_ms=209, data={}
+timestamp=[2023-11-13 16:42:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.527, duration_ms=527, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-13 16:49:46], mode=BUILD, duration=0:00:00.407, duration_ms=407, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-13 17:41:08], mode=WORKBENCH_START, duration=0:00:04.444, duration_ms=4444, data={}
+timestamp=[2023-11-13 17:41:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.180, duration_ms=180, data={}
+timestamp=[2023-11-13 17:41:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.529, duration_ms=529, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-13 17:41:32], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-14 11:18:50], mode=WORKBENCH_START, duration=0:00:04.777, duration_ms=4777, data={}
+timestamp=[2023-11-14 11:18:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.198, duration_ms=198, data={}
+timestamp=[2023-11-14 11:18:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.546, duration_ms=546, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-14 11:19:09], mode=BUILD, duration=0:00:00.307, duration_ms=307, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-14 11:25:25], mode=WORKBENCH_START, duration=0:00:04.227, duration_ms=4227, data={}
+timestamp=[2023-11-14 11:25:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.237, duration_ms=237, data={}
+timestamp=[2023-11-14 11:25:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.580, duration_ms=580, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-14 11:55:09], mode=WORKBENCH_START, duration=0:00:04.616, duration_ms=4616, data={}
+timestamp=[2023-11-14 11:55:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.196, duration_ms=196, data={}
+timestamp=[2023-11-14 11:55:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.582, duration_ms=582, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-14 13:34:56], mode=PLATFORM_GENERATION, duration=0:00:06.390, duration_ms=6390, data={name=design_1_wrapper}
+timestamp=[2023-11-14 13:34:58], mode=BUILD, duration=0:00:00.634, duration_ms=634, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-14 16:17:53], mode=WORKBENCH_START, duration=0:00:04.427, duration_ms=4427, data={}
+timestamp=[2023-11-14 16:17:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.207, duration_ms=207, data={}
+timestamp=[2023-11-14 16:17:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.582, duration_ms=582, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-15 11:41:04], mode=WORKBENCH_START, duration=0:00:04.861, duration_ms=4861, data={}
+timestamp=[2023-11-15 11:41:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.228, duration_ms=228, data={}
+timestamp=[2023-11-15 11:41:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.567, duration_ms=567, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-16 17:36:18], mode=WORKBENCH_START, duration=0:00:04.699, duration_ms=4699, data={}
+timestamp=[2023-11-16 17:36:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.201, duration_ms=201, data={}
+timestamp=[2023-11-16 17:36:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.524, duration_ms=524, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-16 17:37:19], mode=PLATFORM_GENERATION, duration=0:00:06.503, duration_ms=6503, data={name=design_1_wrapper}
+timestamp=[2023-11-16 17:37:21], mode=BUILD, duration=0:00:00.636, duration_ms=636, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-17 17:18:08], mode=WORKBENCH_START, duration=0:00:04.689, duration_ms=4689, data={}
+timestamp=[2023-11-17 17:18:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.212, duration_ms=212, data={}
+timestamp=[2023-11-17 17:18:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.581, duration_ms=581, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-20 10:28:41], mode=WORKBENCH_START, duration=0:00:04.921, duration_ms=4921, data={}
+timestamp=[2023-11-20 10:28:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.177, duration_ms=177, data={}
+timestamp=[2023-11-20 10:28:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.595, duration_ms=595, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-20 10:29:50], mode=PLATFORM_GENERATION, duration=0:00:06.534, duration_ms=6534, data={name=design_1_wrapper}
+timestamp=[2023-11-20 10:29:53], mode=BUILD, duration=0:00:00.689, duration_ms=689, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-20 10:43:47], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-21 11:11:28], mode=WORKBENCH_START, duration=0:00:04.489, duration_ms=4489, data={}
+timestamp=[2023-11-21 11:11:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.225, duration_ms=225, data={}
+timestamp=[2023-11-21 11:11:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.548, duration_ms=548, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-21 11:13:42], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-21 21:27:43], mode=WORKBENCH_START, duration=0:00:04.999, duration_ms=4999, data={}
+timestamp=[2023-11-21 21:27:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.226, duration_ms=226, data={}
+timestamp=[2023-11-21 21:27:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.569, duration_ms=569, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-21 21:29:25], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 16:25:19], mode=WORKBENCH_START, duration=0:00:04.579, duration_ms=4579, data={}
+timestamp=[2023-11-28 16:25:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.214, duration_ms=214, data={}
+timestamp=[2023-11-28 16:25:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.576, duration_ms=576, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-29 12:09:05], mode=WORKBENCH_START, duration=0:00:04.787, duration_ms=4787, data={}
+timestamp=[2023-11-29 12:09:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.250, duration_ms=250, data={}
+timestamp=[2023-11-29 12:09:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.619, duration_ms=619, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hello_word_freeRTOS,Hello_word_freeRTOS_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2023-11-29 13:31:31], mode=PLATFORM_GENERATION, duration=0:00:06.733, duration_ms=6733, data={name=design_1_wrapper}
+timestamp=[2023-11-29 13:31:33], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 13:41:56], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=Hello_word_freeRTOS, configuration=Debug, clean_build=false}

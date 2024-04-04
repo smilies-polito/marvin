@@ -1,0 +1,40 @@
+13:41:55 **** Incremental Build of configuration Debug for project Hello_word_freeRTOS ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/freertos_hello_world.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+../src/freertos_hello_world.c: In function 'confPMU':
+../src/freertos_hello_world.c:88:14: warning: unused variable 'value' [-Wunused-variable]
+   88 |         char value = *pointer;
+      |              ^~~~~
+../src/freertos_hello_world.c: In function 'bubbleSort':
+../src/freertos_hello_world.c:152:1: warning: label 'fine' defined but not used [-Wunused-label]
+  152 | fine:   xil_printf("");
+      | ^~~~
+../src/freertos_hello_world.c:134:1: warning: label 'inizio' defined but not used [-Wunused-label]
+  134 | inizio: xil_printf("");
+      | ^~~~~~
+../src/freertos_hello_world.c: In function 'targetTask':
+../src/freertos_hello_world.c:184:9: warning: label 'dafault' defined but not used [-Wunused-label]
+  184 |         dafault:
+      |         ^~~~~~~
+Finished building: ../src/freertos_hello_world.c
+ 
+Building target: Hello_word_freeRTOS.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/enrico/Desktop/marvin/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/freertos10_xilinx_ps7_cortexa9_0/bsplib/lib -o "Hello_word_freeRTOS.elf" ./src/sha/sha.o  ./src/qsort/qsort.o  ./src/dijkstra/dijkstra.o  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxiltimer,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_word_freeRTOS.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Hello_word_freeRTOS.elf  |tee "Hello_word_freeRTOS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  99452	   4392	  88948	 192792	  2f118	Hello_word_freeRTOS.elf
+Finished building: Hello_word_freeRTOS.elf.size
+ 
+
+13:41:56 Build Finished (took 367ms)
+

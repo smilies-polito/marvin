@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hello_word_freeRTOS/src/qsort&apos;" deleteContents="false" description="Delete resource &apos;Hello_word_freeRTOS/src/qsort&apos;" element1="/Hello_word_freeRTOS/src/qsort" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1695109673338"/>
+</session>
