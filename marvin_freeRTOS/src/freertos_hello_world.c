@@ -19,7 +19,9 @@
 /* Xilinx includes. */
 #include "xil_printf.h"
 #include "xparameters.h"
-#include "ff_stdio.h"
+#include "sha/sha.h"
+#include "dijkstra/dijkstra.h"
+#include "qsort/qsort.h"
 #define TIMER_ID	1
 #define DELAY_10_SECONDS	10000UL
 #define DELAY_1_SECOND		1000UL
@@ -48,10 +50,9 @@ static StaticQueue_t xStaticQueue;
 #endif
 
 
-
 int main( void )
 {
-	xil_printf( "VSSTE (Very Stupid Single Task Example) from Freertos example main\r\n" );
+	//xil_printf( "VSSTE (Very Stupid Single Task Example) from Freertos example main\r\n" );
 
 #if ( configSUPPORT_STATIC_ALLOCATION == 0 ) /* Normal or standard use case */
 	/* Create the two tasks.  The Tx task is given a lower priority than the
@@ -59,7 +60,7 @@ int main( void )
 	task as soon as the Tx task places an item in the queue. */
 	xTaskCreate( 	prvTxTask, 					/* The function that implements the task. */
 					( const char * ) "Tx", 		/* Text name for the task, provided to assist debugging only. */
-					configMINIMAL_STACK_SIZE, 	/* The stack allocated to the task. */
+					4096, 	/* The stack allocated to the task. */
 					NULL, 						/* The task parameter is not used, so set to NULL. */
 					tskIDLE_PRIORITY + 1,		/* The task runs at the idle priority. */
 					&xTxTask );
@@ -83,31 +84,38 @@ int main( void )
 
 
 static void confPMU(){
-	int events[6] = {0x66, 0x67, 0x48, 0x5C, 0x23, 0x25};
+	char* pointer = (char*)0x10000;
+	char value = *pointer;
+	int c = (int)pointer[0];
+	if(c == 0){
+		xil_printf("\n");
+		char* pointer2 = (char*)0x10200;
+		int f = (int)pointer2[0];
+		xil_printf("Fault %d:\n", f);
+	}
+
+	//Tracable events
+	int events[42] = {1,3,4,5,6,7,10,12,13,15,16,17,18,23,80,96,97,98,101,102,103,104,108,109,110,112,113,114,115,118,119,120,129,131,133,138,139,140,142,144,145,146};
+
 	// Enable user-mode access to performance counters
 	asm volatile ("MCR p15, 0, %0, C9, C14, 0\n\t" :: "r"(1));
-	//Enable bit in pmcr
-	asm volatile ("MCR p15, 0, %0, C9, C12, 0\n\t" :: "r"(0x41093009));
+	//Enable bit in pmcr for enabeling the events counter and reset them
+	asm volatile ("MCR p15, 0, %0, C9, C12, 0\n\t" :: "r"(0x4109300B));
 	// Enable all counters in pmcntenset
 	asm volatile ("MCR p15, 0, %0, c9, c12, 1\t\n" :: "r"(0x8000003f));
 	for(int i = 0; i < 6; i++){
 		// select PC in pmselr (solo ultimi 4 bit = 8 counters)
 		asm volatile ("MCR p15, 0, %0, c9, c12, 5\t\n" :: "r"(i));
 		// select event to track in pmxevtyper
-		asm volatile ("MCR p15, 0, %0, C9, C13, 1" :: "r"(events[i]));
+		if(c < 7)
+			asm volatile ("MCR p15, 0, %0, C9, C13, 1" :: "r"(events[i+c*6]));
+		//reset value
 	}
 }
 
-#include <stdio.h>
-
 static void readPMU(){
-	FILE_F *fp = f_open("res", "w");
-	if(fp == NULL){
-		printf("Error opening file.\n");
-		return;
-	}
-	fprintf(fp, "\n");
-	xil_printf("reading the PMU\n\n");
+
+
 	unsigned int counter_value;
 	unsigned int evn_type;
 	for(int i = 0; i < 6; i++){
@@ -117,16 +125,13 @@ static void readPMU(){
 		asm volatile ("MRC p15, 0, %0, C9, C13, 1" :"=r"(evn_type));
 		//reading counter in pmxevncntr
 		asm volatile ("MRC p15, 0, %0, C9, C13, 2" :"=r"(counter_value));
-		xil_printf("Event type: %d Counter: %d\n", evn_type, counter_value);
-		//fprintf(fp, "Event type: %d Counter: %d\n", evn_type, counter_value);
+		xil_printf("%d: %d\n", evn_type, counter_value);
 	}
-
-	//fclose(fp);
 }
 
 static void bubbleSort()
 {
-inizio:	xil_printf("Start bubble sort\n");
+inizio:	xil_printf("");
 		int n = 5;
 		int v[] = {4, 9, 6, 12, 3};
 		int i,k;
@@ -140,21 +145,55 @@ inizio:	xil_printf("Start bubble sort\n");
 		         }
 		 }
 		}
-		/* Delay for 1 second. */
-		//vTaskDelay( x1second );
-		xil_printf("Result:\n");
+
 		for(int i = 0; i < 5; i++){
-			xil_printf(" %d", v[i]);
+
 		}
-fine:	xil_printf("Task finished\n");
+fine:	xil_printf("");
+		int corr = 1;
+		int v_corr[] = {3,4,6,9,12};
+		char* pointer = (char*)0x10100;
+		for(int i = 0; i < 5; i++){
+			if(v_corr[i] != v[i]){
+				corr = 0;
+			}
+		}
+		if(corr == 0){
+
+			pointer[0] = 0; //not correct
+		}else{
+			pointer[0] = 1;	//correct
+		}
+
+}
+static void targetTask (){
+	int num_task = 1;
+	switch(num_task){
+	case 0:
+		bubbleSort();
+		break;
+	case 1:
+		sha();
+		break;
+	case 2:
+		dijkstra_wrap();
+		break;
+	case 3:
+		qsort_wrap();
+		break;
+	dafault:
+		bubbleSort();
+	}
 }
 
 /*-----------------------------------------------------------*/
 static void prvTxTask( void *pvParameters )
 {
 	confPMU();
-	bubbleSort();
+	targetTask();
 	readPMU();
+	xil_printf(""); //solo per mettere final bp
+	vTaskDelete( NULL );
 }
 
 /*-----------------------------------------------------------*/
