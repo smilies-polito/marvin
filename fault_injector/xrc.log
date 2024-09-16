@@ -1,0 +1,11 @@
+Fri Jul 12 10:10:51 2024: Server was asked to start on port: '37745'
+Fri Jul 12 10:10:51 2024: Server is using token UUID: '027d1b22-20d2-40a0-b5b4-40edfe960bc7'
+Fri Jul 12 10:10:51 2024: Attempting to start server on port '37745'
+Fri Jul 12 10:10:51 2024: XRC main fifo: created main fifo '/tmp/xrcmain027d1b22-20d2-40a0-b5b4-40edfe960bc7', fd read = 11
+Fri Jul 12 10:10:51 2024: Running Rule Check Server
+Fri Jul 12 10:10:51 2024: Version 1.6.1
+Fri Jul 12 10:10:52 2024: Rule Check Server: Accepted socket connection from client
+Fri Jul 12 10:10:52 2024: EXCHANGE_TOKEN received, server token: 027d1b22-20d2-40a0-b5b4-40edfe960bc7, passed token: 027d1b22-20d2-40a0-b5b4-40edfe960bc7
+Fri Jul 12 17:21:32 2024: STOP_SERVER received, server token: 027d1b22-20d2-40a0-b5b4-40edfe960bc7, passed token: 027d1b22-20d2-40a0-b5b4-40edfe960bc7
+Fri Jul 12 17:21:32 2024: Socket received request to stop server.
+Fri Jul 12 17:21:32 2024: SERVER: destructor for server bound to port 37745

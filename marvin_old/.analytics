@@ -1,0 +1,230 @@
+timestamp=[2024-07-15 16:37:36], mode=WORKBENCH_START, duration=0:00:03.242, duration_ms=3242, data={}
+timestamp=[2024-07-15 16:37:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.310, duration_ms=310, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-07-15 16:37:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.066, duration_ms=1066, data={}
+timestamp=[2024-07-15 16:41:39], mode=APP_CREATION, duration=0:00:09.760, duration_ms=9760, data={name=marvin, project_type=sdk, os=freertos10_xilinx, processor=ps7_cortexa9, runtime=cpp, platform=pynq_z2_bram_wrapper, application_type=application}
+timestamp=[2024-07-15 16:44:37], mode=PLATFORM_GENERATION, duration=0:00:07.829, duration_ms=7829, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-07-15 16:44:39], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 16:44:47], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-07-15 16:44:47], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 16:45:43], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 17:33:49], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 17:33:54], mode=BUILD, duration=0:00:05.098, duration_ms=5098, data={name=marvin_system, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 17:35:33], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-15 17:35:41], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 14:25:33], mode=WORKBENCH_START, duration=0:00:04.790, duration_ms=4790, data={}
+timestamp=[2024-07-16 14:25:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.435, duration_ms=435, data={}
+timestamp=[2024-07-16 14:25:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.788, duration_ms=788, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-16 14:41:41], mode=WORKBENCH_START, duration=0:00:04.706, duration_ms=4706, data={}
+timestamp=[2024-07-16 14:41:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.564, duration_ms=564, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-16 14:41:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.557, duration_ms=557, data={}
+timestamp=[2024-07-16 14:41:51], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 16:05:19], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 16:15:21], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 16:53:28], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 16:59:29], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:09:54], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:17:25], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:19:34], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:20:34], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:28:54], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:29:02], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:29:34], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:30:29], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:31:10], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:32:23], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:32:32], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:33:06], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:33:14], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:48:21], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:48:56], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:52:01], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 17:57:57], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:10:45], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:11:04], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:13:41], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:15:34], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:19:32], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-16 18:20:35], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 10:53:00], mode=WORKBENCH_START, duration=0:00:04.979, duration_ms=4979, data={}
+timestamp=[2024-07-17 10:53:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.464, duration_ms=464, data={}
+timestamp=[2024-07-17 10:53:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.740, duration_ms=740, data={editors_count=8, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-17 10:54:19], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 11:03:03], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 11:03:25], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 13:52:15], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 13:52:39], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 14:37:26], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 14:38:28], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-17 14:38:45], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-18 13:22:20], mode=WORKBENCH_START, duration=0:00:04.907, duration_ms=4907, data={}
+timestamp=[2024-07-18 13:22:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.601, duration_ms=601, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-18 13:22:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.594, duration_ms=594, data={}
+timestamp=[2024-07-18 13:34:16], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-18 13:34:58], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-18 13:35:36], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-18 14:17:12], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-18 14:23:01], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 13:52:29], mode=WORKBENCH_START, duration=0:00:04.981, duration_ms=4981, data={}
+timestamp=[2024-07-19 13:52:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.585, duration_ms=585, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-19 13:52:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.544, duration_ms=544, data={}
+timestamp=[2024-07-19 13:53:37], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 13:58:37], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:07:25], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:18:10], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:19:15], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:21:07], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:22:12], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:23:44], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-19 14:25:28], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-22 11:29:53], mode=WORKBENCH_START, duration=0:00:05.169, duration_ms=5169, data={}
+timestamp=[2024-07-22 11:29:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.598, duration_ms=598, data={}
+timestamp=[2024-07-22 11:29:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.711, duration_ms=711, data={editors_count=5, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-22 11:34:10], mode=BUILD, duration=0:00:00.151, duration_ms=151, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-22 14:11:52], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-22 14:13:15], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-22 14:49:56], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-24 14:42:39], mode=WORKBENCH_START, duration=0:00:04.874, duration_ms=4874, data={}
+timestamp=[2024-07-24 14:42:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.545, duration_ms=545, data={}
+timestamp=[2024-07-24 14:42:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.756, duration_ms=756, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-24 15:07:50], mode=BUILD, duration=0:00:00.154, duration_ms=154, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-25 10:17:02], mode=WORKBENCH_START, duration=0:00:05.093, duration_ms=5093, data={}
+timestamp=[2024-07-25 10:17:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.666, duration_ms=666, data={editors_count=8, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-25 10:17:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.593, duration_ms=593, data={}
+timestamp=[2024-07-26 13:19:19], mode=WORKBENCH_START, duration=0:00:04.974, duration_ms=4974, data={}
+timestamp=[2024-07-26 13:19:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.472, duration_ms=472, data={}
+timestamp=[2024-07-26 13:19:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.587, duration_ms=587, data={editors_count=8, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-26 15:02:37], mode=PLATFORM_GENERATION, duration=0:00:06.326, duration_ms=6326, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-07-26 15:02:39], mode=BUILD, duration=0:00:00.374, duration_ms=374, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-29 10:05:20], mode=WORKBENCH_START, duration=0:00:05.465, duration_ms=5465, data={}
+timestamp=[2024-07-29 10:05:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.586, duration_ms=586, data={}
+timestamp=[2024-07-29 10:05:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.771, duration_ms=771, data={editors_count=8, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-29 10:42:41], mode=BUILD, duration=0:00:00.151, duration_ms=151, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-29 10:51:59], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-29 10:55:48], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-29 15:48:03], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-29 15:52:15], mode=WORKBENCH_START, duration=0:00:05.156, duration_ms=5156, data={}
+timestamp=[2024-07-29 15:52:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.736, duration_ms=736, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-29 15:52:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.766, duration_ms=766, data={}
+timestamp=[2024-07-29 15:52:27], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-30 10:50:20], mode=WORKBENCH_START, duration=0:00:05.164, duration_ms=5164, data={}
+timestamp=[2024-07-30 10:50:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.656, duration_ms=656, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-30 10:50:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.566, duration_ms=566, data={}
+timestamp=[2024-07-31 11:22:00], mode=WORKBENCH_START, duration=0:00:05.004, duration_ms=5004, data={}
+timestamp=[2024-07-31 11:22:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.564, duration_ms=564, data={}
+timestamp=[2024-07-31 11:22:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.733, duration_ms=733, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-07-31 11:49:48], mode=PLATFORM_GENERATION, duration=0:00:06.400, duration_ms=6400, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-07-31 11:49:49], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 11:51:10], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 11:57:02], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 11:58:04], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 11:58:30], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:30:38], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:34:17], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:35:27], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:38:27], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:39:43], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:40:21], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:50:11], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:50:27], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 13:53:07], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:02:21], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:02:47], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:03:43], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:03:52], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:06:12], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:06:41], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:11:52], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:11:57], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-07-31 15:14:44], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 16:03:23], mode=WORKBENCH_START, duration=0:00:04.977, duration_ms=4977, data={}
+timestamp=[2024-08-01 16:03:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.544, duration_ms=544, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-01 16:03:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.549, duration_ms=549, data={}
+timestamp=[2024-08-01 17:07:28], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:36:11], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:39:27], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:40:07], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:51:10], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:51:30], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:52:04], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 17:57:34], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-01 18:02:05], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 09:55:20], mode=WORKBENCH_START, duration=0:00:04.858, duration_ms=4858, data={}
+timestamp=[2024-08-06 09:55:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.591, duration_ms=591, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-06 09:55:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.521, duration_ms=521, data={}
+timestamp=[2024-08-06 13:41:51], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 13:42:15], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 14:16:15], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 14:16:18], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 14:18:29], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-06 14:18:29], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 14:19:48], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 15:07:59], mode=WORKBENCH_START, duration=0:00:04.898, duration_ms=4898, data={}
+timestamp=[2024-08-06 15:08:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.661, duration_ms=661, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-06 15:08:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.575, duration_ms=575, data={}
+timestamp=[2024-08-06 15:24:46], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 15:35:50], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 15:41:50], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 15:45:43], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-06 15:47:25], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 10:38:04], mode=WORKBENCH_START, duration=0:00:05.466, duration_ms=5466, data={}
+timestamp=[2024-08-07 10:38:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.690, duration_ms=690, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 10:38:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.810, duration_ms=810, data={}
+timestamp=[2024-08-07 12:37:37], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 12:38:23], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 12:46:55], mode=BUILD, duration=0:00:00.172, duration_ms=172, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 12:51:15], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:07:00], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:11:07], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:11:59], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:25:38], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:25:38], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:28:43], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:28:44], mode=BUILD, duration=0:00:00.520, duration_ms=520, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:32:58], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:32:58], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:33:37], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:33:37], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:34:29], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:34:29], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:40:38], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:40:38], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:44:09], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:44:20], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:44:45], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:46:13], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:46:30], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:47:00], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:47:15], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:47:20], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:47:52], mode=WORKBENCH_START, duration=0:00:04.499, duration_ms=4499, data={}
+timestamp=[2024-08-07 13:47:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.457, duration_ms=457, data={}
+timestamp=[2024-08-07 13:47:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.635, duration_ms=635, data={editors_count=12, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 13:47:59], mode=BUILD, duration=0:00:00.151, duration_ms=151, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:48:04], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:48:12], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:49:28], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:49:47], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:49:51], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:50:21], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:50:33], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:50:55], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:51:01], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:51:11], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:51:32], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:52:57], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:52:59], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:53:10], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:53:15], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:53:20], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:53:30], mode=PLATFORM_GENERATION, duration=0:00:05.967, duration_ms=5967, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 13:53:30], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=marvin, configuration=Debug, clean_build=true}
+timestamp=[2024-08-07 13:53:41], mode=PLATFORM_GENERATION, duration=0:00:07.706, duration_ms=7706, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 13:53:42], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:54:46], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:57:28], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 13:58:33], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=marvin, configuration=Debug, clean_build=false}
+timestamp=[2024-08-07 14:52:21], mode=WORKBENCH_START, duration=0:00:04.622, duration_ms=4622, data={}
+timestamp=[2024-08-07 14:52:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.450, duration_ms=450, data={}
+timestamp=[2024-08-07 14:52:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.641, duration_ms=641, data={editors_count=13, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,marvin,marvin_system,pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 14:52:35], mode=PLATFORM_GENERATION, duration=0:00:06.394, duration_ms=6394, data={name=pynq_z2_bram_wrapper}
+timestamp=[2024-08-07 14:52:36], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=marvin, configuration=Debug, clean_build=false}

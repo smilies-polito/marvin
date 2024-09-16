@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jul  9 14:56:01 2024
+# Process ID: 44006
+# Current directory: /home/kike/Desktop/marvin/vivado_project/pynqZ2_platform/pynqZ2_platform.runs/synth_1
+# Command line: vivado -log free_rtos_v1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source free_rtos_v1_wrapper.tcl
+# Log file: /home/kike/Desktop/marvin/vivado_project/pynqZ2_platform/pynqZ2_platform.runs/synth_1/free_rtos_v1_wrapper.vds
+# Journal file: /home/kike/Desktop/marvin/vivado_project/pynqZ2_platform/pynqZ2_platform.runs/synth_1/vivado.jou
+# Running On        :travelmate
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1355U
+# CPU Frequency     :3700.000 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :33319 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35466 MB
+# Available Virtual :18054 MB
+#-----------------------------------------------------------
+source free_rtos_v1_wrapper.tcl -notrace

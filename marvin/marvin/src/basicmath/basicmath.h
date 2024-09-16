@@ -1,0 +1,1 @@
+int basicmath(int golden);

@@ -1,0 +1,887 @@
+
+*** Running vivado
+    with args -log pynq_z2_bram_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source pynq_z2_bram_wrapper.tcl -notrace
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Mon Jul 15 13:39:16 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source pynq_z2_bram_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+Command: link_design -top pynq_z2_bram_wrapper -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+INFO: [Project 1-454] Reading design checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_bram_ctrl_0_0/pynq_z2_bram_axi_bram_ctrl_0_0.dcp' for cell 'pynq_z2_bram_i/axi_bram_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_bram_ctrl_0_bram_0/pynq_z2_bram_axi_bram_ctrl_0_bram_0.dcp' for cell 'pynq_z2_bram_i/axi_bram_ctrl_0_bram'
+INFO: [Project 1-454] Reading design checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/pynq_z2_bram_axi_smc_0.dcp' for cell 'pynq_z2_bram_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_processing_system7_0_0/pynq_z2_bram_processing_system7_0_0.dcp' for cell 'pynq_z2_bram_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_rst_ps7_0_100M_0/pynq_z2_bram_rst_ps7_0_100M_0.dcp' for cell 'pynq_z2_bram_i/rst_ps7_0_100M'
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1876.125 ; gain = 0.000 ; free physical = 20040 ; free virtual = 27962
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_processing_system7_0_0/pynq_z2_bram_processing_system7_0_0.xdc] for cell 'pynq_z2_bram_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_processing_system7_0_0/pynq_z2_bram_processing_system7_0_0.xdc] for cell 'pynq_z2_bram_i/processing_system7_0/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_1/bd_646f_psr_aclk_0_board.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_1/bd_646f_psr_aclk_0_board.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_1/bd_646f_psr_aclk_0.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_1/bd_646f_psr_aclk_0.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_ar_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:178]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc:184]
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_6/bd_646f_sarn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_ar_node/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_r_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:63]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:85]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:91]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:94]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:97]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:107]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:110]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:113]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:116]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:119]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:122]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:125]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:128]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:131]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:134]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:137]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:140]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:143]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:146]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:149]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:152]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:155]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:158]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:161]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:164]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:167]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:171]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:174]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:178]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:181]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-13' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc:184]
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_7/bd_646f_srn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_r_node/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_aw_node/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:49]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:55]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:59]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:63]
+INFO: [Common 17-14] Message 'Vivado 12-180' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:66]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:70]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:73]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:79]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:82]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:85]
+INFO: [Common 17-14] Message 'Vivado_Tcl 4-921' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc:85]
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_8/bd_646f_sawn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_aw_node/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_9/bd_646f_swn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_w_node/inst'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_9/bd_646f_swn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_w_node/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_10/bd_646f_sbn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_b_node/inst'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/bd_0/ip/ip_10/bd_646f_sbn_0_clocks.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_b_node/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/smartconnect.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/smartconnect.xdc:1]
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_axi_smc_0/smartconnect.xdc] for cell 'pynq_z2_bram_i/axi_smc/inst'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_rst_ps7_0_100M_0/pynq_z2_bram_rst_ps7_0_100M_0_board.xdc] for cell 'pynq_z2_bram_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_rst_ps7_0_100M_0/pynq_z2_bram_rst_ps7_0_100M_0_board.xdc] for cell 'pynq_z2_bram_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_rst_ps7_0_100M_0/pynq_z2_bram_rst_ps7_0_100M_0.xdc] for cell 'pynq_z2_bram_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.gen/sources_1/bd/pynq_z2_bram/ip/pynq_z2_bram_rst_ps7_0_100M_0/pynq_z2_bram_rst_ps7_0_100M_0.xdc] for cell 'pynq_z2_bram_i/rst_ps7_0_100M/U0'
+INFO: [Project 1-1714] 19 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'pynq_z2_bram_wrapper'...
+INFO: [Project 1-1687] 243 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2741.473 ; gain = 0.000 ; free physical = 19505 ; free virtual = 27442
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 34 instances
+
+20 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2741.473 ; gain = 1257.441 ; free physical = 19505 ; free virtual = 27442
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.64 ; elapsed = 00:00:00.37 . Memory (MB): peak = 2741.473 ; gain = 0.000 ; free physical = 19492 ; free virtual = 27429
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2741.473 ; gain = 0.000 ; free physical = 19491 ; free virtual = 27428
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Phase 1 Initialization | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Phase 2 Timer Update And Timing Data Collection | Checksum: d24f6b38
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 11 inverter(s) to 78 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 19bc0bcf1
+
+Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Retarget | Checksum: 19bc0bcf1
+INFO: [Opt 31-389] Phase Retarget created 10 cells and removed 45 cells
+INFO: [Opt 31-1021] In phase Retarget, 20 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+Phase 4 Constant propagation | Checksum: 1de89b1bb
+
+Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Constant propagation | Checksum: 1de89b1bb
+INFO: [Opt 31-389] Phase Constant propagation created 64 cells and removed 117 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 20 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 11fadf20f
+
+Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.26 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Sweep | Checksum: 11fadf20f
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 323 cells
+INFO: [Opt 31-1021] In phase Sweep, 25 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 11fadf20f
+
+Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.28 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+BUFG optimization | Checksum: 11fadf20f
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 11fadf20f
+
+Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Shift Register Optimization | Checksum: 11fadf20f
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 14fe33c15
+
+Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.3 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Post Processing Netlist | Checksum: 14fe33c15
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 20 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.49 ; elapsed = 00:00:00.33 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.52 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Phase 9 Finalization | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              10  |              45  |                                             20  |
+|  Constant propagation         |              64  |             117  |                                             20  |
+|  Sweep                        |               0  |             323  |                                             25  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             20  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2940.246 ; gain = 0.000 ; free physical = 19196 ; free virtual = 27134
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19107 ; free virtual = 27052
+Ending Power Optimization Task | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.37 . Memory (MB): peak = 3234.184 ; gain = 293.938 ; free physical = 19106 ; free virtual = 27052
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19106 ; free virtual = 27052
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19106 ; free virtual = 27052
+Ending Netlist Obfuscation Task | Checksum: 144a3a3de
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19106 ; free virtual = 27052
+INFO: [Common 17-83] Releasing license: Implementation
+47 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Vivado 12-24828] Executing command : report_drc -file pynq_z2_bram_wrapper_drc_opted.rpt -pb pynq_z2_bram_wrapper_drc_opted.pb -rpx pynq_z2_bram_wrapper_drc_opted.rpx
+Command: report_drc -file pynq_z2_bram_wrapper_drc_opted.rpt -pb pynq_z2_bram_wrapper_drc_opted.pb -rpx pynq_z2_bram_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19105 ; free virtual = 27052
+Wrote PlaceDB: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19105 ; free virtual = 27052
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19105 ; free virtual = 27052
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19104 ; free virtual = 27051
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19104 ; free virtual = 27051
+Wrote Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19103 ; free virtual = 27051
+Write Physdb Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19103 ; free virtual = 27051
+INFO: [Common 17-1381] The checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27044
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d3b03388
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27044
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27044
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: b3ac0180
+
+Time (s): cpu = 00:00:00.56 ; elapsed = 00:00:00.25 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27043
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: e05abee0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.51 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19091 ; free virtual = 27041
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: e05abee0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.52 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19091 ; free virtual = 27041
+Phase 1 Placer Initialization | Checksum: e05abee0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.52 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19091 ; free virtual = 27041
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 16b59321f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.6 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19050 ; free virtual = 27002
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: f2dc4fc5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.66 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19076 ; free virtual = 27028
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: f2dc4fc5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.66 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19076 ; free virtual = 27028
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 18f007782
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19092 ; free virtual = 27044
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 193 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 70 nets or LUTs. Breaked 0 LUT, combined 70 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19091 ; free virtual = 27045
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |             70  |                    70  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |             70  |                    70  |           0  |           4  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: f5c4140d
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19091 ; free virtual = 27044
+Phase 2.4 Global Placement Core | Checksum: 123eb02e1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19090 ; free virtual = 27044
+Phase 2 Global Placement | Checksum: 123eb02e1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19090 ; free virtual = 27044
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 11c216908
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19090 ; free virtual = 27044
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 110f782cb
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19089 ; free virtual = 27043
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1c0422a09
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19089 ; free virtual = 27043
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 179b67190
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19089 ; free virtual = 27043
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 23b7deb75
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19096 ; free virtual = 27050
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 221f40b11
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19096 ; free virtual = 27050
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1e788d29a
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19096 ; free virtual = 27050
+Phase 3 Detail Placement | Checksum: 1e788d29a
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19096 ; free virtual = 27050
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1f96fc5ec
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=3.087 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 186cf63c1
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27049
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 187cf71c8
+
+Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27049
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1f96fc5ec
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19095 ; free virtual = 27049
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.087. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1e2762121
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+Phase 4.1 Post Commit Optimization | Checksum: 1e2762121
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1e2762121
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1e2762121
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+Phase 4.3 Placer Reporting | Checksum: 1e2762121
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1c1abec41
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+Ending Placer Task | Checksum: f611cc92
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19094 ; free virtual = 27048
+82 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file pynq_z2_bram_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19085 ; free virtual = 27039
+INFO: [Vivado 12-24828] Executing command : report_utilization -file pynq_z2_bram_wrapper_utilization_placed.rpt -pb pynq_z2_bram_wrapper_utilization_placed.pb
+INFO: [Vivado 12-24828] Executing command : report_io -file pynq_z2_bram_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.14 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19080 ; free virtual = 27034
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19084 ; free virtual = 27039
+Wrote PlaceDB: Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19072 ; free virtual = 27030
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19072 ; free virtual = 27030
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19072 ; free virtual = 27030
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19072 ; free virtual = 27030
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19071 ; free virtual = 27030
+Write Physdb Complete: Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.14 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19071 ; free virtual = 27030
+INFO: [Common 17-1381] The checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19070 ; free virtual = 27027
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 3.087 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+93 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19067 ; free virtual = 27024
+Wrote PlaceDB: Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19058 ; free virtual = 27018
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19058 ; free virtual = 27018
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19057 ; free virtual = 27017
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19057 ; free virtual = 27018
+Wrote Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19056 ; free virtual = 27018
+Write Physdb Complete: Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.13 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 19056 ; free virtual = 27018
+INFO: [Common 17-1381] The checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: cd9a5f91 ConstDB: 0 ShapeSum: 127dfa11 RouteDB: 15f972f0
+Post Restoration Checksum: NetGraph: cdf8794d | NumContArr: c63565cc | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 3197fd453
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18970 ; free virtual = 26929
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 3197fd453
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18970 ; free virtual = 26929
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 3197fd453
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18970 ; free virtual = 26929
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 253314801
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18934 ; free virtual = 26894
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.157  | TNS=0.000  | WHS=-0.353 | THS=-86.693|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 2473
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 2473
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 296615bdd
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 296615bdd
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 2edc88f19
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+Phase 4 Initial Routing | Checksum: 2edc88f19
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 211
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.272  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Global Iteration 0 | Checksum: 217015341
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 5.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.272  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.2 Global Iteration 1 | Checksum: 225bacf52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+Phase 5 Rip-up And Reroute | Checksum: 225bacf52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+Phase 6.1 Delay CleanUp | Checksum: 225bacf52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 225bacf52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+Phase 6 Delay and Skew Optimization | Checksum: 225bacf52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.286  | TNS=0.000  | WHS=0.056  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 21853fbad
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+Phase 7 Post Hold Fix | Checksum: 21853fbad
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.354303 %
+  Global Horizontal Routing Utilization  = 0.487914 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 21853fbad
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 21853fbad
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18931 ; free virtual = 26891
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 1c7ef2bbb
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18933 ; free virtual = 26893
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 1c7ef2bbb
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18933 ; free virtual = 26893
+
+Phase 12 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.286  | TNS=0.000  | WHS=0.056  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 12 Post Router Timing | Checksum: 1c7ef2bbb
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18933 ; free virtual = 26893
+Total Elapsed time in route_design: 9.25 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: 11cec7b0c
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18940 ; free virtual = 26900
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 11cec7b0c
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18940 ; free virtual = 26900
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+108 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 3234.184 ; gain = 0.000 ; free physical = 18940 ; free virtual = 26900
+INFO: [Vivado 12-24828] Executing command : report_drc -file pynq_z2_bram_wrapper_drc_routed.rpt -pb pynq_z2_bram_wrapper_drc_routed.pb -rpx pynq_z2_bram_wrapper_drc_routed.rpx
+Command: report_drc -file pynq_z2_bram_wrapper_drc_routed.rpt -pb pynq_z2_bram_wrapper_drc_routed.pb -rpx pynq_z2_bram_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file pynq_z2_bram_wrapper_methodology_drc_routed.rpt -pb pynq_z2_bram_wrapper_methodology_drc_routed.pb -rpx pynq_z2_bram_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file pynq_z2_bram_wrapper_methodology_drc_routed.rpt -pb pynq_z2_bram_wrapper_methodology_drc_routed.pb -rpx pynq_z2_bram_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -report_unconstrained -file pynq_z2_bram_wrapper_timing_summary_routed.rpt -pb pynq_z2_bram_wrapper_timing_summary_routed.pb -rpx pynq_z2_bram_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-24838] Running report commands "report_bus_skew, report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 3 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file pynq_z2_bram_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file pynq_z2_bram_wrapper_route_status.rpt -pb pynq_z2_bram_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file pynq_z2_bram_wrapper_bus_skew_routed.rpt -pb pynq_z2_bram_wrapper_bus_skew_routed.pb -rpx pynq_z2_bram_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-24828] Executing command : report_power -file pynq_z2_bram_wrapper_power_routed.rpt -pb pynq_z2_bram_wrapper_power_summary_routed.pb -rpx pynq_z2_bram_wrapper_power_routed.rpx
+Command: report_power -file pynq_z2_bram_wrapper_power_routed.rpt -pb pynq_z2_bram_wrapper_power_summary_routed.pb -rpx pynq_z2_bram_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+128 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file pynq_z2_bram_wrapper_clock_utilization_routed.rpt
+WARNING: [Device 21-9320] Failed to find the Oracle tile group with name 'HSR_BOUNDARY_TOP'. This is required for Clock regions and Virtual grid.
+WARNING: [Device 21-2174] Failed to initialize Virtual grid.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18891 ; free virtual = 26854
+Wrote PlaceDB: Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18888 ; free virtual = 26855
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18888 ; free virtual = 26855
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18888 ; free virtual = 26855
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18888 ; free virtual = 26855
+Wrote Device Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18885 ; free virtual = 26854
+Write Physdb Complete: Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.12 . Memory (MB): peak = 3299.230 ; gain = 0.000 ; free physical = 18885 ; free virtual = 26854
+INFO: [Common 17-1381] The checkpoint '/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/impl_1/pynq_z2_bram_wrapper_routed.dcp' has been generated.
+INFO: [Memdata 28-167] Found XPM memory block pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the pynq_z2_bram_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+Command: write_bitstream -force pynq_z2_bram_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./pynq_z2_bram_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+145 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 3530.930 ; gain = 231.699 ; free physical = 18572 ; free virtual = 26538
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 13:40:00 2024...

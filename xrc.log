@@ -1,0 +1,11 @@
+Fri Aug 30 20:12:31 2024: Server was asked to start on port: '34611'
+Fri Aug 30 20:12:31 2024: Server is using token UUID: 'a2ecf761-faf7-4d46-aa96-c25de1f156df'
+Fri Aug 30 20:12:31 2024: Attempting to start server on port '34611'
+Fri Aug 30 20:12:31 2024: XRC main fifo: created main fifo '/tmp/xrcmaina2ecf761-faf7-4d46-aa96-c25de1f156df', fd read = 11
+Fri Aug 30 20:12:31 2024: Running Rule Check Server
+Fri Aug 30 20:12:31 2024: Version 1.6.1
+Fri Aug 30 20:12:31 2024: Rule Check Server: Accepted socket connection from client
+Fri Aug 30 20:12:31 2024: EXCHANGE_TOKEN received, server token: a2ecf761-faf7-4d46-aa96-c25de1f156df, passed token: a2ecf761-faf7-4d46-aa96-c25de1f156df
+Fri Aug 30 21:05:31 2024: STOP_SERVER received, server token: a2ecf761-faf7-4d46-aa96-c25de1f156df, passed token: a2ecf761-faf7-4d46-aa96-c25de1f156df
+Fri Aug 30 21:05:31 2024: Socket received request to stop server.
+Fri Aug 30 21:05:31 2024: SERVER: destructor for server bound to port 34611

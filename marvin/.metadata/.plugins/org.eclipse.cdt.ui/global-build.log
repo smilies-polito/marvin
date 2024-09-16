@@ -1,0 +1,9 @@
+Nothing to build in platform 'pynq_z2_bram_wrapper'
+
+14:45:22 **** Incremental Build of configuration Debug for project marvin ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

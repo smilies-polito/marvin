@@ -1,0 +1,30 @@
+// BMM LOC annotation file.
+//
+// SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+// Vivado v2024.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'pynq_z2_bram_i_processing_system7_0', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP pynq_z2_bram_i_processing_system7_0 ARM 100 pynq_z2_bram_i/processing_system7_0
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'pynq_z2_bram_i_processing_system7_0' address space 'pynq_z2_bram_i_axi_bram_ctrl_0' 0X0000000040000000:0X0000000040001FFF (8 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE pynq_z2_bram_i_axi_bram_ctrl_0 RAMB32 [0X0000000040000000:0X0000000040001FFF] pynq_z2_bram_i/axi_bram_ctrl_0
+        BUS_BLOCK
+            pynq_z2_bram_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.SP.SIMPLE_PRIM36.SP_NO_ECC_ATTR.ram RAMB32 [31:16] [0:2047] PLACED = X2Y18;
+            pynq_z2_bram_i/axi_bram_ctrl_0_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.SP.SIMPLE_PRIM36.SP_NO_ECC_ATTR.ram RAMB32 [15:0] [0:2047] PLACED = X2Y17;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+
