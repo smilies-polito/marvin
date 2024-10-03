@@ -1,9 +1,0 @@
-{
-	"version": "1.0",
-	"modules": {
-		"free_rtos_v1": {
-			"proto_instances": {
-			}
-		}
-	}
-}

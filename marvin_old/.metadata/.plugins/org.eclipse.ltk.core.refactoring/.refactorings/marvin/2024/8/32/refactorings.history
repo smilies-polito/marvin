@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;marvin/src/stringsearch/pbmsrch_small.c&apos; to &apos;pbmsrch.c&apos;" description="Rename resource &apos;pbmsrch_small.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/stringsearch/pbmsrch_small.c" name="pbmsrch.c" stamp="1722944088852" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;marvin/src/fft/fft.c&apos; to &apos;fourier.c&apos;" description="Rename resource &apos;fft.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fft/fft.c" name="fourier.c" stamp="1723024216574" updateReferences="true"/>
-</session>
