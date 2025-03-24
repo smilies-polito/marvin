@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="  Cannot read memory if not stopped. Execution context is running"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="00108e54"/>
+			<item value="freq"/>
+			<item value="hz"/>
+			<item value="HZ"/>
+			<item value="invalidate_dcache"/>
+			<item value="inva"/>
+			<item value="xIl_prin"/>
+			<item value="fillrand"/>
+			<item value="inizio_sha"/>
+			<item value="golden"/>
+			<item value="xil_print"/>
+			<item value="enc"/>
+			<item value="enc "/>
+			<item value="set_key"/>
+			<item value="fin"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="20"/>
+		<item key="DIALOG_Y_ORIGIN" value="20"/>
+		<item key="DIALOG_WIDTH" value="342"/>
+		<item key="DIALOG_HEIGHT" value="408"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Jul 15 13:37:51 2024
+# Process ID: 15407
+# Current directory: /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/pynq_z2_bram_axi_smc_0_synth_1
+# Command line: vivado -log pynq_z2_bram_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pynq_z2_bram_axi_smc_0.tcl
+# Log file: /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/pynq_z2_bram_axi_smc_0_synth_1/pynq_z2_bram_axi_smc_0.vds
+# Journal file: /home/kike/Desktop/marvin/vivado_project/pynq_z2_bram/pynq_z2_bram.runs/pynq_z2_bram_axi_smc_0_synth_1/vivado.jou
+# Running On        :travelmate
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-1355U
+# CPU Frequency     :4697.257 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :33319 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35466 MB
+# Available Virtual :30064 MB
+#-----------------------------------------------------------
+source pynq_z2_bram_axi_smc_0.tcl -notrace

@@ -1,0 +1,14 @@
+SDC 2645/2964
+benign 2234/6942
+
+
+
+all - register  4985
+benign 4832 96.9
+SDC  1      0
+crash 152   3.1
+
+all - memory 4969
+benign 4963 99.8
+sdc        0
+crash      0.2

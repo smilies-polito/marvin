@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="/home/kike/Desktop/marvin/vivado_project/pynq_z2_bram"/>
+	<item key="sdx_export_archive_directory" value="/home/kike/Desktop/marvin"/>
+	<item key="dump_restore_files_selection" value="/home/kike/Desktop/marvin/marvin/dump_heap.bin"/>
+</section>

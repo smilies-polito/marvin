@@ -1,0 +1,15 @@
+addr2line -e ./../marvin/marvin/Debug/marvin.elf 0x0010033c
+
+
+output and modified file:
+/home/kike/Desktop/marvin/marvin/pynq_z2_bram_wrapper/ps7_cortexa9_0/freertos10_xilinx_ps7_cortexa9_0/bsp/ps7_cortexa9_0/libsrc/standalone_v9_1/src/boot.S:400
+
+Modified line 200
+
+	/* Invalidate caches and TLBs */
+	//mov	r0,#0				/* r0 = 0  */
+	//mcr	p15, 0, r0, c8, c7, 0		/* invalidate TLBs */
+	//mcr	p15, 0, r0, c7, c5, 0		/* invalidate icache */
+	//mcr	p15, 0, r0, c7, c5, 6		/* Invalidate branch predictor array */
+	//bl	invalidate_dcache		/* invalidate dcache */
+

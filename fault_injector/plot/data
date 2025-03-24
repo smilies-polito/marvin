@@ -1,0 +1,88 @@
+Percentage
+
+basic math multi 5032
+benign 2207 	43.8
+sdc 590		11.8	
+crash  2235     44.4
+
+rijndeal multi  4625
+benign 326	7
+sdc 1771	38.3
+crash 2527	54.7
+
+sha multi 5192
+benign 2275	43.8
+sdc 2875	55.4
+crash 89	1.8
+
+
+REGISTERS
+
+basicmath
+benign  	94.3
+sdc 		5.3
+crash 		0.4
+
+rijndeal
+benign 		69.4
+sdc		29.6	
+crash		1
+
+sha 
+benign 		88.4
+sdc 		11.2	
+crash 		0.4
+
+dijkstra
+benign		95
+sdc		4.4
+crash		0.6
+
+qsort
+benign		96.2
+sdc		2.6
+crash 		1.2
+
+stringsearch
+benign		99.5
+sdc		0.3
+crash		0.2
+
+
+
+MEMORY
+
+basicmath 
+benign  	99.7
+sdc 		0.1
+crash 		0.2
+
+rijndeal  
+benign 		98.7
+sdc 		0.8	
+crash 		0.5
+
+sha 
+benign 		95
+sdc 		3.9	
+crash 		1.1
+
+dijkstra
+benign		96.9
+sdc		0.7
+crash		2.4
+
+qsort
+benign		98.5
+sdc		0.9
+crash 		0.6
+
+stringsearch
+benign		99.9
+sdc		0
+crash		0.1
+
+
+
+
+
