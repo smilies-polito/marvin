@@ -1,11 +1,14 @@
-Mon Dec 16 08:57:27 2024: Server was asked to start on port: '32839'
-Mon Dec 16 08:57:27 2024: Server is using token UUID: '1d2d4954-1662-4683-999c-1bcf8668bed2'
-Mon Dec 16 08:57:27 2024: Attempting to start server on port '32839'
-Mon Dec 16 08:57:27 2024: XRC main fifo: created main fifo '/tmp/xrcmain1d2d4954-1662-4683-999c-1bcf8668bed2', fd read = 11
-Mon Dec 16 08:57:27 2024: Running Rule Check Server
-Mon Dec 16 08:57:27 2024: Version 1.6.1
-Mon Dec 16 08:57:27 2024: Rule Check Server: Accepted socket connection from client
-Mon Dec 16 08:57:28 2024: EXCHANGE_TOKEN received, server token: 1d2d4954-1662-4683-999c-1bcf8668bed2, passed token: 1d2d4954-1662-4683-999c-1bcf8668bed2
-Mon Dec 16 17:21:10 2024: STOP_SERVER received, server token: 1d2d4954-1662-4683-999c-1bcf8668bed2, passed token: 1d2d4954-1662-4683-999c-1bcf8668bed2
-Mon Dec 16 17:21:10 2024: Socket received request to stop server.
-Mon Dec 16 17:21:10 2024: SERVER: destructor for server bound to port 32839
+Tue Apr 22 10:51:21 2025: Server was asked to start on port: '44537'
+Tue Apr 22 10:51:21 2025: Server is using token UUID: 'f3e45f74-3184-409a-819a-fb1cd04b934a'
+Tue Apr 22 10:51:21 2025: Attempting to start server on port '44537'
+Tue Apr 22 10:51:21 2025: XRC main fifo: created main fifo '/tmp/xrcmainf3e45f74-3184-409a-819a-fb1cd04b934a', fd read = 11
+Tue Apr 22 10:51:21 2025: Running Rule Check Server
+Tue Apr 22 10:51:21 2025: Version 1.6.1
+Tue Apr 22 10:51:22 2025: Rule Check Server: Accepted socket connection from client
+Tue Apr 22 10:51:22 2025: EXCHANGE_TOKEN received, server token: f3e45f74-3184-409a-819a-fb1cd04b934a, passed token: f3e45f74-3184-409a-819a-fb1cd04b934a
+Tue Apr 22 18:40:06 2025: STOP_SERVER received, server token: f3e45f74-3184-409a-819a-fb1cd04b934a, passed token: f3e45f74-3184-409a-819a-fb1cd04b934a
+Tue Apr 22 18:40:06 2025: Socket received request to stop server.
+Tue Apr 22 18:40:06 2025: SERVER: destructor for server bound to port 44537
+Tue Apr 22 18:40:06 2025: XRC main fifo: Good unlink of /tmp/xrcmainf3e45f74-3184-409a-819a-fb1cd04b934a
+Tue Apr 22 18:40:06 2025: Server exiting with status 0.
+Tue Apr 22 18:40:06 2025: Closing log file.

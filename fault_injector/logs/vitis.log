@@ -1,0 +1,6 @@
+10:47:40 INFO  : updated workspace path: 
+10:47:40 INFO  : bash, -c, source /tools/Xilinx/Vitis/2024.1/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2024.1/data/embeddedsw/scripts/pyesw//repo.py -st  /tools/Xilinx/Vitis/2024.1/data/embeddedsw && deactivate
+10:47:44 ERROR : Error in Creating Embedded Repositories at '/tmp/rigel_lopper_kike3492031621268925388'.
+10:47:44 ERROR : Error in Creating Embedded Repositories at '/tmp/rigel_lopper_kike3492031621268925388'.
+10:47:44 INFO  : Terminating Vitis C++ Server
+10:47:44 INFO  : Vitis C++ Server terminated

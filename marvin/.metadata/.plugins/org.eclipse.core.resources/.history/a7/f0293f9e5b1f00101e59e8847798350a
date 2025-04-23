@@ -55,17 +55,21 @@ TaskData_t taskData[NUM_TASKS];
 
 int main( void )
 {
-
+	//xil_printf( "VSSTE (Very Stupid Single Task Example) from Freertos example main\r\n" );
 
 #if ( configSUPPORT_STATIC_ALLOCATION == 0 ) /* Normal or standard use case */
-
-	/* Create the Fault Injector task */
-	xTaskCreate( 	faultInjectorTask, 			/* The function that implements the task. */
+	/* Create the two tasks.  The Tx task is given a lower priority than the
+	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
+	task as soon as the Tx task places an item in the queue. */
+	xTaskCreate( 	faultInjectorTask, 					/* The function that implements the task. */
 					( const char * ) "FI", 		/* Text name for the task, provided to assist debugging only. */
-					8192, 						/* The stack allocated to the task. */
+					8192, 	/* The stack allocated to the task. */
 					NULL, 						/* The task parameter is not used, so set to NULL. */
 					tskIDLE_PRIORITY + 2,		/* The task runs at the idle priority. */
-					&xFITask );					/* The task handler */
+					&xFITask );
+
+
+
 
 #endif
 
@@ -83,11 +87,7 @@ int main( void )
 
 
 
-/* Function to configure the Performance Monitorin Unit (PMU) to track specific
- * architectural event. Takes as parameters and integer that indicate which range
- *  of architectural events we need to track, one to seven, if one take the first
- *  6 events, and so on.
- */
+
 static void confPMU(int c){
 
 	c = c - 1;
@@ -100,42 +100,16 @@ static void confPMU(int c){
 	asm volatile ("MCR p15, 0, %0, C9, C12, 0\n\t" :: "r"(0x4109300B));
 	// Enable all counters in pmcntenset
 	asm volatile ("MCR p15, 0, %0, c9, c12, 1\t\n" :: "r"(0x8000003f));
-
-	// Cycle over the six performance counters
 	for(int i = 0; i < 6; i++){
-		// select PC in pmselr (only last 4 bit = 8 counters)
+		// select PC in pmselr (solo ultimi 4 bit = 8 counters)
 		asm volatile ("MCR p15, 0, %0, c9, c12, 5\t\n" :: "r"(i));
 		// select event to track in pmxevtyper
 		if(c < 7)
 			asm volatile ("MCR p15, 0, %0, C9, C13, 1" :: "r"(events[i+c*6]));
+		//reset value
 	}
 }
 
-
-
-/* Function to read the value of the 6 performance couter (PC) */
-static void readPMU(){
-	unsigned int counter_value; //to store the vaule of the PC
-	unsigned int evn_type;		//to store the number of the event
-
-	// Cycle over the six performance counters
-	for(int i = 0; i < 6; i++){
-		//selecting counter in pmselr
-		asm volatile ("MCR p15, 0, %0, C9, C12, 5" :: "r"(i));
-		//reading event type in pmxevtyper
-		asm volatile ("MRC p15, 0, %0, C9, C13, 1" :"=r"(evn_type));
-		//reading counter in pmxevncntr
-		asm volatile ("MRC p15, 0, %0, C9, C13, 2" :"=r"(counter_value));
-		//print the value, that it will be read from the fault injector sniffer
-		xil_printf("%d: %d\n", evn_type, counter_value);	//DON'T REMOVE IT
-	}
-}
-
-
-/*
- * Function that takes in input a char, and print 0 if the char is composed
- *  by only zero bit, or print one if the char as at least one bit set to 1
- */
 void printBinary(char ch) {
     // Loop through each bit of the character from the most significant bit
     int zero = 1;
@@ -146,52 +120,53 @@ void printBinary(char ch) {
         	zero = 0;
         }
     }
-
-	// These prints will be red from the sniffer.py
 	if(zero){
-		xil_printf("0");	//DON'T REMOVE IT
+		xil_printf("0");
 	}else{
-		xil_printf("1");	//DON'T REMOVE IT
+		xil_printf("1");
 	}
 }
-
-/* Function to set a zero inside the current heap and stack of the task*/
 static void memory_zero(){
-	char *ptr = (char *)1279944; //pointer of the heap
-	int size = 8200;  //size; 8200 only heap, 22536 heap and stack
-
-	//loop over all the byte to set it to zero
+	char *ptr = (char *)1279944;
+	int size = 8200;  //8200 only heap, 22536 heap and stack
 	for(int i = 0; i < size; i++){
 		ptr[i] = 0;
 	}
 
 }
 
-
-/* Function to perform the memory dump of the heap and stack */
 static void memory_dump(){
-	char *ptr = (char *)1279944; //pointer to the heap
+	char *ptr = (char *)1279944;
 	int size = 8200;	//8200 only heap, 22536 heap and stack
+	//memory_zero();
+	xil_printf("Memory Dump:");
 
-	//this print is needed by the sniffer script to identify the init of the dump
-	xil_printf("Memory Dump:");		//DON'T REMOVE IT
-
-	//loop over the byte
 	for(int i = 0; i < size; i++){
 		if(i%160==0){
-			xil_printf("\n"); //DON'T REMOVE IT new line every 160 byte
+			xil_printf("\n");
 		}
-
-		//this function write a 0 or a 1 for each byte
 		printBinary(ptr[i]);
 
 	}
-	xil_printf("\n"); 	//DON'T REMOVE IT
+	xil_printf("\n");
 }
 
-/* Bubble sort benchmark function, not working with random input generation
- * NOT TO BE USED
- */
+static void readPMU(){
+
+
+	unsigned int counter_value;
+	unsigned int evn_type;
+	for(int i = 0; i < 6; i++){
+		//selecting counter in pmselr
+		asm volatile ("MCR p15, 0, %0, C9, C12, 5" :: "r"(i));
+		//reading event type in pmxevtyper
+		asm volatile ("MRC p15, 0, %0, C9, C13, 1" :"=r"(evn_type));
+		//reading counter in pmxevncntr
+		asm volatile ("MRC p15, 0, %0, C9, C13, 2" :"=r"(counter_value));
+		xil_printf("%d: %d\n", evn_type, counter_value);
+	}
+}
+
 static void bubbleSort()
 {
 inizio:	xil_printf("");
@@ -229,16 +204,11 @@ fine:	xil_printf("");
 		}
 }
 
-/* This function is used by the multi-bench, takes as parameters
- *  the TaskData_t struct with the information of the benchmark that need to be scheduled.
- *  based on the benchNum execute the corresponding benchmark and take the comparison results
- */
+
 void benchTaskFunction(void *pvParameters)
 {
     TaskData_t *pTaskData = (TaskData_t *)pvParameters;
 
-    //switch base on the benchNum, run the corresponding benchmark passing the golden flag
-    //retrieve the comparison result and save it into the TaskData_t
     switch(pTaskData->benchNum){
 		case 0:
 			pTaskData->outputValue = sha(pTaskData->golden);
@@ -272,24 +242,17 @@ void benchTaskFunction(void *pvParameters)
     vTaskDelete(NULL);
 }
 
-
-/* Function of the special benchmark multi-bench
- * It' will schedule more benchmark in different task.
- * Can be used to inject inside the Operating System.
- * It receives as parameters the golden Flag
- */
 int runAllTask(int golden)
 {
     BaseType_t xResult;
     uint32_t ulNotifiedValue;
 
-    // loop to cereate NUM_TASKS tasks each for running different benchmark
+    // Create the tasks
     for (uint32_t i = 0; i < NUM_TASKS; i++)
     {
-    	// for each tasks fill the correspondig TaskData_t structure inside the array
-    	taskData[i].benchNum = i; 		//with the number of the benchmark
-    	taskData[i].golden = golden;	//the golden flag
-        xResult = xTaskCreate(benchTaskFunction, "Task", 2048, (void *)&taskData[i], tskIDLE_PRIORITY + 1, &taskHandles[i]); //lower priority respect to the father
+    	taskData[i].benchNum = i;
+    	taskData[i].golden = golden;
+        xResult = xTaskCreate(benchTaskFunction, "Task", 2048, (void *)&taskData[i], tskIDLE_PRIORITY + 1, &taskHandles[i]);
         if (xResult != pdPASS)
         {
             // Handle the error
@@ -308,32 +271,24 @@ int runAllTask(int golden)
         }
     }
     int corr = 1;
-    if (golden == 0){ //if the golden flag is not active check all the tasks results
-
+    if (golden == 0){
     	// All tasks have completed; process the results
-    	for (uint32_t i = 0; i < NUM_TASKS; i++)
+		for (uint32_t i = 0; i < NUM_TASKS; i++)
 		{
 			if(taskData[i].outputValue != 1){
 				corr = 0;
 			}
 		}
-		char* pointer = (char*)0x40000008; //pointer to the benchmark comparison results, to pass it at the fault injector
+		char* pointer = (char*)0x40000008;
 		if(corr){
-			pointer[0] = 1; 				//correct(benign) if all benchmark are correct
+			pointer[0] = 1; //correct
 		}else{
-			pointer[0] = 0;					//not correct(SDC) if at least one is not correct
+			pointer[0] = 0;	//not correct
 		}
     }
     return 1;
 }
 
-/* Function to select the benchmark for the injection
- * Takes as parameters:
- *  - golden = flag to set the golden run
- *  - num_benchmark = integer for selecting the benchmark
- *    calls the corresponding benchmark function passing
- *    through the golden flag
- */
 static void targetTask (int golden, int num_benchmark){
 	switch(num_benchmark){
 	case 0:
@@ -365,63 +320,52 @@ static void targetTask (int golden, int num_benchmark){
 	}
 }
 
-/*
- * Main benchmark Task
- */
+/*-----------------------------------------------------------*/
 static void faultInjectorTask( void *pvParameters )
 {
-	//Read from the Fault injector the target benchmark
+
 	int num_benchmark = 3;
 	char* pointer_bench = (char*)0x4000000c;
 	num_benchmark = (int)pointer_bench[0];
-	//num_benchmark = 3;			//To Be commented, need in debug phase to force a specific benchmark
-
-	//Read from the Fault Injector the type of discriminant features to collect (0 = event, 1 = memory)
+	//num_benchmark = 3;
 	int feature = 1;
-	char* pointer_feature = (char*)0x40000010;
+	char* pointer_feature = (char*)0x40000010;  // 0 = eventm 1 = memory
 	feature = (int)pointer_feature[0];
-
-	//read from the Fault Injector the number of the event range to track, if equal to zero is the golden run, otherwise is the event range
-	int golden_run = 0;		//by default the golden run flag is set to 0 (fualty run), 1 (golden with seed generation), >= 100 (golden without the seed generation, and the value is the seed)
+	int golden_run = 0;
 	int* pointer = (int*)0x40000000;
-	int c = (int)pointer[0];	//c collect the feature range if grater then 0
-
-	if(c == 0){ 		//GOLDEN RUN
-		xil_printf("\n");	//DON'T REMOVE IT
-
-		//Read from the Fault injector the number of fualt executed
+	int c = (int)pointer[0];
+	//xil_printf("c: %d\n", c);
+	if(c == 0){
+		xil_printf("\n");
 		char* pointer2 = (char*)0x40000004;
 		int f = (int)pointer2[0];
-		xil_printf("Fault %d:\n", f);	//DON'T REMOVE IT
-
-
-		//Read from the Fault Injector the seed, to generate the input
+		xil_printf("Fault %d:\n", f);
 		int* pointer_seed = (int*)0x40000014;
 		int seed = (int)pointer_seed[0];
 		//xil_printf("Seed in main: %d\n", seed);
-		if(seed >= 100){			//if the seed is greater than then 100, the fault injecotor is retriving the seed from a prevoius campaign
-			golden_run = seed;		//set the seed to activate the golden run, with an old seed
-		}else{						//Otherwise a new seed must be generated
-			golden_run = 1;			//set 1 to activate the golden run, with the seed generation
+		if(seed >= 100){
+			golden_run = seed;
+		}else{
+			golden_run = 1;
 		}
 	}
-	if(feature == 0){				//Collect events as feature
-		if(golden_run == 0){		//if not in the golden run configure the pmu
+	if(feature == 0){
+		if(golden_run == 0){
 			confPMU(c);
 		}
-		targetTask(golden_run, num_benchmark);	//execute the target benchmark
-		if(golden_run == 0){		//if not in the golden run read the pmu
+		targetTask(golden_run, num_benchmark);
+		if(golden_run == 0){
 			readPMU();
 		}
 
-	}else{							//memory dump as feature
-		memory_zero();				//reset the heap and stack
-		targetTask(golden_run, num_benchmark);		//execute the target benchmark
+	}else{
+		memory_zero();
+		targetTask(golden_run, num_benchmark);
 		if(golden_run == 0){
-			memory_dump();			//if not in the golden run, memory dump
+			memory_dump();
 		}
 	}
-	xil_printf(""); //DON'T REMOVE IT, use to put the final breakpoint
+	xil_printf(""); //solo per mettere final bp
 
 	vTaskDelete( NULL );
 }

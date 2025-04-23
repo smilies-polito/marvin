@@ -13,7 +13,7 @@ connect -url tcp:127.0.0.1:3121
 targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
-targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
 fpga -file /home/kike/Desktop/marvin/marvin/marvin/_ide/bitstream/pynq_z2_bram_wrapper.bit
 targets -set -nocase -filter {name =~"APU*"}
 loadhw -hw /home/kike/Desktop/marvin/marvin/pynq_z2_bram_wrapper/export/pynq_z2_bram_wrapper/hw/pynq_z2_bram_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="  Cannot read memory if not stopped. Execution context is running"/>
+		<item key="selection" value="xil_p"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="xil_p"/>
 			<item value="00108e54"/>
 			<item value="freq"/>
 			<item value="hz"/>
@@ -22,7 +23,6 @@
 			<item value="enc"/>
 			<item value="enc "/>
 			<item value="set_key"/>
-			<item value="fin"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

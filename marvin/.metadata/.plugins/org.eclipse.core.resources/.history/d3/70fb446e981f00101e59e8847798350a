@@ -169,10 +169,8 @@ void sha_stream(SHA_INFO *sha_info, const char *str) {
 int sha_print(SHA_INFO *sha_info, int golden)
 {
 	int corr = 1;
-
-	if(golden > 0){		//in the golden run store the golden output in the memory fpga in the correct address
-		int* pointer_gold = (int*)0x40000100;	//memory address for the golden output, must be different for each benchmark, otherwise generate problem running the multi-bench
-
+	if(golden > 0){
+		int* pointer_gold = (int*)0x40000100;
 		//xil_printf("Result: %x - %x - %x - %x - %x\n", sha_info->digest[0], sha_info->digest[1], sha_info->digest[2],sha_info->digest[3], sha_info->digest[4]);
 
 		pointer_gold[0] = sha_info->digest[0];
@@ -182,13 +180,13 @@ int sha_print(SHA_INFO *sha_info, int golden)
 		pointer_gold[16] = sha_info->digest[4];
 
 
-	}else{				// in the faulty run, read the golden value from the fpga memory and comapare it with the corrent output
+	}else{
 		int* pointer_gold = (int*)0x40000100;
 		//xil_printf("Result: %x - %x - %x - %x - %x\n", sha_info->digest[0], sha_info->digest[1], sha_info->digest[2], sha_info->digest[3], sha_info->digest[4]);
 		if(sha_info->digest[0] != pointer_gold[0] || sha_info->digest[1] != pointer_gold[4] || sha_info->digest[2] != pointer_gold[8] || sha_info->digest[3] != pointer_gold[12] || sha_info->digest[4] != pointer_gold[16]){
 			corr = 0;
 		}
-		char* pointer = (char*)0x40000008; //fpga memory location to store the comparison result
+		char* pointer = (char*)0x40000008;
 		if(corr){
 			pointer[0] = 1; //correct
 		}else{

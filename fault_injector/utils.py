@@ -21,6 +21,10 @@ def parse_args():
 	return parsed_args
 
 def decimal_to_hex(decimal_number):
+	'''
+		Takes as input a decimal number
+		Return: The converted hexadecimal value
+	'''
     if not isinstance(decimal_number, int):
         raise ValueError("Input must be an integer.")
     
@@ -35,7 +39,8 @@ def decimal_to_hex(decimal_number):
 
 def get_instraction(address):
 	'''
-		Given an address return the corresponding instruction in the .elf file
+		Takes in input an address of the .elf file
+		Return: The corresponding instruction in the .elf file
 	'''
 	command = "arm-none-eabi-objdump -D ./../marvin/marvin/Debug/marvin.elf | grep " + str(decimal_to_hex(address-address%4)) + ":"
 	output = os.popen(command).read()
@@ -43,6 +48,10 @@ def get_instraction(address):
 	return output[:-1] #removing the last char the \n
 
 def random_in_intervals(intervals):
+	'''
+		Takes an array of tuples, with the init and fin for each intervals, express in hex in a string
+		Return: An integer random number within an interval
+	'''
     # Select a random interval from the list
     selected_interval = random.choice(intervals)
     

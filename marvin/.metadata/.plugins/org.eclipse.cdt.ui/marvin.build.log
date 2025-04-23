@@ -1,10 +1,36 @@
-10:33:32 **** Incremental Build of configuration Debug for project marvin ****
+18:40:01 **** Incremental Build of configuration Debug for project marvin ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-make[1]: Nothing to be done for 'main-build'.
+Building file: ../src/sha/sha.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -lm -fmessage-length=0 -MT"src/sha/sha.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/kike/Desktop/marvin/marvin/pynq_z2_bram_wrapper/export/pynq_z2_bram_wrapper/sw/pynq_z2_bram_wrapper/freertos10_xilinx_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/sha/sha.d" -MT"src/sha/sha.o" -o "src/sha/sha.o" "../src/sha/sha.c"
+../src/sha/sha.c: In function 'sha_transform':
+../src/sha/sha.c:45:9: warning: label 'inizio_sha' defined but not used [-Wunused-label]
+   45 |         inizio_sha:     xil_printf("");
+      |         ^~~~~~~~~~
+../src/sha/sha.c: In function 'sha_stream':
+../src/sha/sha.c:164:5: warning: label 'fine_sha' defined but not used [-Wunused-label]
+  164 |     fine_sha:   xil_printf("");
+      |     ^~~~~~~~
+../src/sha/sha.c:146:9: warning: unused variable 'i' [-Wunused-variable]
+  146 |     int i;
+      |         ^
+Finished building: ../src/sha/sha.c
+ 
+Building target: marvin.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/kike/Desktop/marvin/marvin/pynq_z2_bram_wrapper/export/pynq_z2_bram_wrapper/sw/pynq_z2_bram_wrapper/freertos10_xilinx_ps7_cortexa9_0/bsplib/lib -o "marvin.elf" ./src/stringsearch/pbmsrch.o  ./src/sha/sha.o  ./src/rijndael/aes.o ./src/rijndael/aesxam.o  ./src/qsort/qsort.o  ./src/dijkstra/dijkstra.o  ./src/basicmath/basicmath_small.o ./src/basicmath/isqrt.o ./src/basicmath/rad2deg.o  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxiltimer,-lxil,-lgcc,-lc,--end-group
+Finished building target: marvin.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size marvin.elf  |tee "marvin.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153460	   4384	  90040	 247884	  3c84c	marvin.elf
+Finished building: marvin.elf.size
+ 
 
-10:33:32 Build Finished (took 267ms)
+18:40:01 Build Finished (took 316ms)
 
